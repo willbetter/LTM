@@ -1,0 +1,1457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C02662461D6ADDED00492242 /* LTM-universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C02662471D6ADDED00492242 /* Build configuration list for PBXAggregateTarget "LTM-universal" */;
+			buildPhases = (
+				C026624C1D6ADF0600492242 /* ShellScript */,
+			);
+			dependencies = (
+				C026624B1D6ADF0400492242 /* PBXTargetDependency */,
+			);
+			name = "LTM-universal";
+			productName = "LTM-universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		C02662001D6AAD1F00492242 /* LTMPath.h in Headers */ = {isa = PBXBuildFile; fileRef = C02661FE1D6AAD1F00492242 /* LTMPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02662011D6AAD1F00492242 /* LTMPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C02661FF1D6AAD1F00492242 /* LTMPath.m */; };
+		C02662041D6AAE1600492242 /* LTMDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662021D6AAE1600492242 /* LTMDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02662051D6AAE1600492242 /* LTMDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662031D6AAE1600492242 /* LTMDigest.m */; };
+		C02662121D6ACC2300492242 /* LTMTypeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662101D6ACC2300492242 /* LTMTypeUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02662131D6ACC2300492242 /* LTMTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662111D6ACC2300492242 /* LTMTypeUtility.m */; };
+		C02662161D6ACE3600492242 /* LTMStringDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662141D6ACE3600492242 /* LTMStringDrawing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02662171D6ACE3600492242 /* LTMStringDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662151D6ACE3600492242 /* LTMStringDrawing.m */; };
+		C02662221D6ACE5A00492242 /* LTMUIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662181D6ACE5A00492242 /* LTMUIImage+Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02662231D6ACE5A00492242 /* LTMUIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662191D6ACE5A00492242 /* LTMUIImage+Alpha.m */; };
+		C02662241D6ACE5A00492242 /* LTMUIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = C026621A1D6ACE5A00492242 /* LTMUIImage+Resize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02662251D6ACE5A00492242 /* LTMUIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C026621B1D6ACE5A00492242 /* LTMUIImage+Resize.m */; };
+		C02662261D6ACE5A00492242 /* LTMUIImage+Rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = C026621C1D6ACE5A00492242 /* LTMUIImage+Rotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02662271D6ACE5A00492242 /* LTMUIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = C026621D1D6ACE5A00492242 /* LTMUIImage+Rotate.m */; };
+		C02662281D6ACE5A00492242 /* LTMUIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = C026621E1D6ACE5A00492242 /* LTMUIImage+RoundedCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02662291D6ACE5A00492242 /* LTMUIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = C026621F1D6ACE5A00492242 /* LTMUIImage+RoundedCorner.m */; };
+		C026622A1D6ACE5A00492242 /* LTMUIView+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662201D6ACE5A00492242 /* LTMUIView+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C026622B1D6ACE5A00492242 /* LTMUIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662211D6ACE5A00492242 /* LTMUIView+Snapshot.m */; };
+		C026622F1D6ACFCF00492242 /* LTMUIColor+RGB.h in Headers */ = {isa = PBXBuildFile; fileRef = C026622D1D6ACFCF00492242 /* LTMUIColor+RGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02662301D6ACFCF00492242 /* LTMUIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = C026622E1D6ACFCF00492242 /* LTMUIColor+RGB.m */; };
+		C02662331D6AD56300492242 /* LTMNSCoder+ExtendedCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662311D6AD56300492242 /* LTMNSCoder+ExtendedCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02662341D6AD56300492242 /* LTMNSCoder+ExtendedCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662321D6AD56300492242 /* LTMNSCoder+ExtendedCoder.m */; };
+		C02662441D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662421D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02662451D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662431D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.m */; };
+		C041100D1D65CA0E004D6725 /* LTM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04110021D65CA0E004D6725 /* LTM.framework */; };
+		C04110121D65CA0E004D6725 /* LTMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110111D65CA0E004D6725 /* LTMTests.m */; };
+		C041102B1D65CA22004D6725 /* LTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101C1D65CA22004D6725 /* LTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C041102C1D65CA22004D6725 /* LTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C041101D1D65CA22004D6725 /* LTMBase64.m */; };
+		C041102D1D65CA22004D6725 /* LTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101E1D65CA22004D6725 /* LTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C041102E1D65CA22004D6725 /* LTMHex.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101F1D65CA22004D6725 /* LTMHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C041102F1D65CA22004D6725 /* LTMHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110201D65CA22004D6725 /* LTMHex.m */; };
+		C04110301D65CA22004D6725 /* LTMJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110211D65CA22004D6725 /* LTMJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C04110311D65CA22004D6725 /* LTMJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110221D65CA22004D6725 /* LTMJSON.m */; };
+		C04110321D65CA22004D6725 /* LTMMerge.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110231D65CA22004D6725 /* LTMMerge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C04110331D65CA22004D6725 /* LTMMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110241D65CA22004D6725 /* LTMMerge.m */; };
+		C04110341D65CA22004D6725 /* LTMStringEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110251D65CA22004D6725 /* LTMStringEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C04110351D65CA22004D6725 /* LTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110261D65CA22004D6725 /* LTMStringEncoding.m */; };
+		C04110361D65CA22004D6725 /* LTMURLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110271D65CA22004D6725 /* LTMURLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C04110371D65CA22004D6725 /* LTMURLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110281D65CA22004D6725 /* LTMURLArguments.m */; };
+		C04110381D65CA22004D6725 /* LTMURLCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110291D65CA22004D6725 /* LTMURLCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C04110391D65CA22004D6725 /* LTMURLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C041102A1D65CA22004D6725 /* LTMURLCoder.m */; };
+		C041103F1D65CB53004D6725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C041103E1D65CB53004D6725 /* CoreGraphics.framework */; };
+		C041104A1D65CCA0004D6725 /* LTMGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110481D65CCA0004D6725 /* LTMGeometryUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C041104B1D65CCA0004D6725 /* LTMGeometryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110491D65CCA0004D6725 /* LTMGeometryUtils.m */; };
+		C041104D1D65CDD7004D6725 /* LTMLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = C041104C1D65CDD7004D6725 /* LTMLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C04110531D65CF23004D6725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04110521D65CF23004D6725 /* UIKit.framework */; };
+		C04110561D65D922004D6725 /* LTMNSThread+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110541D65D922004D6725 /* LTMNSThread+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C04110571D65D922004D6725 /* LTMNSThread+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110551D65D922004D6725 /* LTMNSThread+Blocks.m */; };
+		C041105A1D65DA83004D6725 /* LTMLightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110581D65DA83004D6725 /* LTMLightweightProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C041105B1D65DA83004D6725 /* LTMLightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110591D65DA83004D6725 /* LTMLightweightProxy.m */; };
+		C041105E1D65DE73004D6725 /* LTMURLComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = C041105C1D65DE73004D6725 /* LTMURLComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C041105F1D65DE73004D6725 /* LTMURLComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = C041105D1D65DE73004D6725 /* LTMURLComponents.m */; };
+		C04110621D65DEA5004D6725 /* LTMURLQueryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110601D65DEA5004D6725 /* LTMURLQueryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C04110631D65DEA5004D6725 /* LTMURLQueryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110611D65DEA5004D6725 /* LTMURLQueryItem.m */; };
+		C0746D1F1D73DFDE001EAFA6 /* LTMMath.h in Headers */ = {isa = PBXBuildFile; fileRef = C0746D1D1D73DFDE001EAFA6 /* LTMMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0746D201D73DFDE001EAFA6 /* LTMMath.m in Sources */ = {isa = PBXBuildFile; fileRef = C0746D1E1D73DFDE001EAFA6 /* LTMMath.m */; };
+		C0F7B1F21D9523FE00C6CB37 /* LTMNSThread+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110551D65D922004D6725 /* LTMNSThread+Blocks.m */; };
+		C0F7B1F31D9523FE00C6CB37 /* LTMGeometryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110491D65CCA0004D6725 /* LTMGeometryUtils.m */; };
+		C0F7B1F41D9523FE00C6CB37 /* LTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C041101D1D65CA22004D6725 /* LTMBase64.m */; };
+		C0F7B1F51D9523FE00C6CB37 /* LTMHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110201D65CA22004D6725 /* LTMHex.m */; };
+		C0F7B1F61D9523FE00C6CB37 /* LTMJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110221D65CA22004D6725 /* LTMJSON.m */; };
+		C0F7B1F71D9523FE00C6CB37 /* LTMLightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110591D65DA83004D6725 /* LTMLightweightProxy.m */; };
+		C0F7B1F81D9523FE00C6CB37 /* LTMMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110241D65CA22004D6725 /* LTMMerge.m */; };
+		C0F7B1F91D9523FE00C6CB37 /* LTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110261D65CA22004D6725 /* LTMStringEncoding.m */; };
+		C0F7B1FA1D9523FE00C6CB37 /* LTMURLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110281D65CA22004D6725 /* LTMURLArguments.m */; };
+		C0F7B1FB1D9523FE00C6CB37 /* LTMURLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C041102A1D65CA22004D6725 /* LTMURLCoder.m */; };
+		C0F7B1FC1D9523FE00C6CB37 /* LTMMath.m in Sources */ = {isa = PBXBuildFile; fileRef = C0746D1E1D73DFDE001EAFA6 /* LTMMath.m */; };
+		C0F7B1FD1D9523FE00C6CB37 /* LTMURLComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = C041105D1D65DE73004D6725 /* LTMURLComponents.m */; };
+		C0F7B1FE1D9523FE00C6CB37 /* LTMURLQueryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110611D65DEA5004D6725 /* LTMURLQueryItem.m */; };
+		C0F7B1FF1D9523FE00C6CB37 /* LTMDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662031D6AAE1600492242 /* LTMDigest.m */; };
+		C0F7B2001D9523FE00C6CB37 /* LTMPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C02661FF1D6AAD1F00492242 /* LTMPath.m */; };
+		C0F7B2011D9523FE00C6CB37 /* LTMTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662111D6ACC2300492242 /* LTMTypeUtility.m */; };
+		C0F7B2021D9523FE00C6CB37 /* LTMNSCoder+ExtendedCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662321D6AD56300492242 /* LTMNSCoder+ExtendedCoder.m */; };
+		C0F7B2031D9523FE00C6CB37 /* LTMNSKeyedUnarchiver+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662431D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.m */; };
+		C0F7B2041D9523FE00C6CB37 /* LTMNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE340EF1D7EA65300AA66CC /* LTMNSDictionary.m */; };
+		C0F7B2051D95240D00C6CB37 /* LTMLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = C041104C1D65CDD7004D6725 /* LTMLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2061D95240D00C6CB37 /* LTMNSThread+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110541D65D922004D6725 /* LTMNSThread+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2071D95240D00C6CB37 /* LTMGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110481D65CCA0004D6725 /* LTMGeometryUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2081D95240D00C6CB37 /* LTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101C1D65CA22004D6725 /* LTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2091D95240D00C6CB37 /* LTMHex.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101F1D65CA22004D6725 /* LTMHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B20A1D95240D00C6CB37 /* LTMJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110211D65CA22004D6725 /* LTMJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B20B1D95240D00C6CB37 /* LTMLightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110581D65DA83004D6725 /* LTMLightweightProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B20C1D95240D00C6CB37 /* LTMMerge.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110231D65CA22004D6725 /* LTMMerge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B20D1D95240D00C6CB37 /* LTMStringEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110251D65CA22004D6725 /* LTMStringEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B20E1D95240D00C6CB37 /* LTMURLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110271D65CA22004D6725 /* LTMURLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B20F1D95240D00C6CB37 /* LTMURLCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110291D65CA22004D6725 /* LTMURLCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2101D95240D00C6CB37 /* LTMMath.h in Headers */ = {isa = PBXBuildFile; fileRef = C0746D1D1D73DFDE001EAFA6 /* LTMMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2111D95240D00C6CB37 /* LTMURLComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = C041105C1D65DE73004D6725 /* LTMURLComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2121D95240D00C6CB37 /* LTMURLQueryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110601D65DEA5004D6725 /* LTMURLQueryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2131D95240D00C6CB37 /* LTMDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662021D6AAE1600492242 /* LTMDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2141D95240D00C6CB37 /* LTMPath.h in Headers */ = {isa = PBXBuildFile; fileRef = C02661FE1D6AAD1F00492242 /* LTMPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2151D95240D00C6CB37 /* LTMTypeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662101D6ACC2300492242 /* LTMTypeUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2161D95240D00C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662311D6AD56300492242 /* LTMNSCoder+ExtendedCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2171D95240D00C6CB37 /* LTMNSKeyedUnarchiver+Safety.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662421D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2181D95240D00C6CB37 /* LTMNSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE340EE1D7EA65300AA66CC /* LTMNSDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B21A1D95242D00C6CB37 /* LTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101E1D65CA22004D6725 /* LTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B21B1D95245200C6CB37 /* LTMNSThread+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110551D65D922004D6725 /* LTMNSThread+Blocks.m */; };
+		C0F7B21C1D95245200C6CB37 /* LTMGeometryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110491D65CCA0004D6725 /* LTMGeometryUtils.m */; };
+		C0F7B21D1D95245200C6CB37 /* LTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C041101D1D65CA22004D6725 /* LTMBase64.m */; };
+		C0F7B21E1D95245200C6CB37 /* LTMHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110201D65CA22004D6725 /* LTMHex.m */; };
+		C0F7B21F1D95245200C6CB37 /* LTMJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110221D65CA22004D6725 /* LTMJSON.m */; };
+		C0F7B2201D95245200C6CB37 /* LTMLightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110591D65DA83004D6725 /* LTMLightweightProxy.m */; };
+		C0F7B2211D95245200C6CB37 /* LTMMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110241D65CA22004D6725 /* LTMMerge.m */; };
+		C0F7B2221D95245200C6CB37 /* LTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110261D65CA22004D6725 /* LTMStringEncoding.m */; };
+		C0F7B2231D95245200C6CB37 /* LTMURLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110281D65CA22004D6725 /* LTMURLArguments.m */; };
+		C0F7B2241D95245200C6CB37 /* LTMURLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C041102A1D65CA22004D6725 /* LTMURLCoder.m */; };
+		C0F7B2251D95245200C6CB37 /* LTMMath.m in Sources */ = {isa = PBXBuildFile; fileRef = C0746D1E1D73DFDE001EAFA6 /* LTMMath.m */; };
+		C0F7B2261D95245200C6CB37 /* LTMURLComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = C041105D1D65DE73004D6725 /* LTMURLComponents.m */; };
+		C0F7B2271D95245200C6CB37 /* LTMURLQueryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110611D65DEA5004D6725 /* LTMURLQueryItem.m */; };
+		C0F7B2281D95245200C6CB37 /* LTMDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662031D6AAE1600492242 /* LTMDigest.m */; };
+		C0F7B2291D95245200C6CB37 /* LTMPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C02661FF1D6AAD1F00492242 /* LTMPath.m */; };
+		C0F7B22A1D95245200C6CB37 /* LTMTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662111D6ACC2300492242 /* LTMTypeUtility.m */; };
+		C0F7B22B1D95245200C6CB37 /* LTMNSCoder+ExtendedCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662321D6AD56300492242 /* LTMNSCoder+ExtendedCoder.m */; };
+		C0F7B22C1D95245200C6CB37 /* LTMNSKeyedUnarchiver+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662431D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.m */; };
+		C0F7B22D1D95245200C6CB37 /* LTMNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE340EF1D7EA65300AA66CC /* LTMNSDictionary.m */; };
+		C0F7B22F1D95246600C6CB37 /* LTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101E1D65CA22004D6725 /* LTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2301D95246600C6CB37 /* LTMLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = C041104C1D65CDD7004D6725 /* LTMLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2311D95246600C6CB37 /* LTMNSThread+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110541D65D922004D6725 /* LTMNSThread+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2321D95246600C6CB37 /* LTMGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110481D65CCA0004D6725 /* LTMGeometryUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2331D95246600C6CB37 /* LTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101C1D65CA22004D6725 /* LTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2341D95246600C6CB37 /* LTMHex.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101F1D65CA22004D6725 /* LTMHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2351D95246600C6CB37 /* LTMJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110211D65CA22004D6725 /* LTMJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2361D95246600C6CB37 /* LTMLightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110581D65DA83004D6725 /* LTMLightweightProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2371D95246600C6CB37 /* LTMMerge.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110231D65CA22004D6725 /* LTMMerge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2381D95246600C6CB37 /* LTMStringEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110251D65CA22004D6725 /* LTMStringEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2391D95246600C6CB37 /* LTMURLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110271D65CA22004D6725 /* LTMURLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B23A1D95246600C6CB37 /* LTMURLCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110291D65CA22004D6725 /* LTMURLCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B23B1D95246600C6CB37 /* LTMMath.h in Headers */ = {isa = PBXBuildFile; fileRef = C0746D1D1D73DFDE001EAFA6 /* LTMMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B23C1D95246600C6CB37 /* LTMURLComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = C041105C1D65DE73004D6725 /* LTMURLComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B23D1D95246600C6CB37 /* LTMURLQueryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110601D65DEA5004D6725 /* LTMURLQueryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B23E1D95246600C6CB37 /* LTMDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662021D6AAE1600492242 /* LTMDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B23F1D95246600C6CB37 /* LTMPath.h in Headers */ = {isa = PBXBuildFile; fileRef = C02661FE1D6AAD1F00492242 /* LTMPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2401D95246600C6CB37 /* LTMTypeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662101D6ACC2300492242 /* LTMTypeUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2411D95246600C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662311D6AD56300492242 /* LTMNSCoder+ExtendedCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2421D95246600C6CB37 /* LTMNSKeyedUnarchiver+Safety.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662421D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2431D95246600C6CB37 /* LTMNSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE340EE1D7EA65300AA66CC /* LTMNSDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2441D95247900C6CB37 /* LTMNSThread+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110551D65D922004D6725 /* LTMNSThread+Blocks.m */; };
+		C0F7B2451D95247900C6CB37 /* LTMGeometryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110491D65CCA0004D6725 /* LTMGeometryUtils.m */; };
+		C0F7B2461D95247900C6CB37 /* LTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C041101D1D65CA22004D6725 /* LTMBase64.m */; };
+		C0F7B2471D95247900C6CB37 /* LTMHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110201D65CA22004D6725 /* LTMHex.m */; };
+		C0F7B2481D95247900C6CB37 /* LTMJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110221D65CA22004D6725 /* LTMJSON.m */; };
+		C0F7B2491D95247900C6CB37 /* LTMLightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110591D65DA83004D6725 /* LTMLightweightProxy.m */; };
+		C0F7B24A1D95247900C6CB37 /* LTMMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110241D65CA22004D6725 /* LTMMerge.m */; };
+		C0F7B24B1D95247900C6CB37 /* LTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110261D65CA22004D6725 /* LTMStringEncoding.m */; };
+		C0F7B24C1D95247900C6CB37 /* LTMURLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110281D65CA22004D6725 /* LTMURLArguments.m */; };
+		C0F7B24D1D95247900C6CB37 /* LTMURLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C041102A1D65CA22004D6725 /* LTMURLCoder.m */; };
+		C0F7B24E1D95247900C6CB37 /* LTMMath.m in Sources */ = {isa = PBXBuildFile; fileRef = C0746D1E1D73DFDE001EAFA6 /* LTMMath.m */; };
+		C0F7B24F1D95247900C6CB37 /* LTMURLComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = C041105D1D65DE73004D6725 /* LTMURLComponents.m */; };
+		C0F7B2501D95247900C6CB37 /* LTMURLQueryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110611D65DEA5004D6725 /* LTMURLQueryItem.m */; };
+		C0F7B2511D95247900C6CB37 /* LTMDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662031D6AAE1600492242 /* LTMDigest.m */; };
+		C0F7B2521D95247900C6CB37 /* LTMPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C02661FF1D6AAD1F00492242 /* LTMPath.m */; };
+		C0F7B2531D95247900C6CB37 /* LTMTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662111D6ACC2300492242 /* LTMTypeUtility.m */; };
+		C0F7B2541D95247900C6CB37 /* LTMNSCoder+ExtendedCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662321D6AD56300492242 /* LTMNSCoder+ExtendedCoder.m */; };
+		C0F7B2551D95247900C6CB37 /* LTMNSKeyedUnarchiver+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662431D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.m */; };
+		C0F7B2561D95247900C6CB37 /* LTMNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE340EF1D7EA65300AA66CC /* LTMNSDictionary.m */; };
+		C0F7B2581D95248D00C6CB37 /* LTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101E1D65CA22004D6725 /* LTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2591D95248D00C6CB37 /* LTMLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = C041104C1D65CDD7004D6725 /* LTMLocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B25A1D95248D00C6CB37 /* LTMNSThread+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110541D65D922004D6725 /* LTMNSThread+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B25B1D95248D00C6CB37 /* LTMGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110481D65CCA0004D6725 /* LTMGeometryUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B25C1D95248D00C6CB37 /* LTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101C1D65CA22004D6725 /* LTMBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B25D1D95248D00C6CB37 /* LTMHex.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101F1D65CA22004D6725 /* LTMHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B25E1D95248D00C6CB37 /* LTMJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110211D65CA22004D6725 /* LTMJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B25F1D95248D00C6CB37 /* LTMLightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110581D65DA83004D6725 /* LTMLightweightProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2601D95248D00C6CB37 /* LTMMerge.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110231D65CA22004D6725 /* LTMMerge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2611D95248D00C6CB37 /* LTMStringEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110251D65CA22004D6725 /* LTMStringEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2621D95248D00C6CB37 /* LTMURLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110271D65CA22004D6725 /* LTMURLArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2631D95248D00C6CB37 /* LTMURLCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110291D65CA22004D6725 /* LTMURLCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2641D95248D00C6CB37 /* LTMMath.h in Headers */ = {isa = PBXBuildFile; fileRef = C0746D1D1D73DFDE001EAFA6 /* LTMMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2651D95248D00C6CB37 /* LTMURLComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = C041105C1D65DE73004D6725 /* LTMURLComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2661D95248D00C6CB37 /* LTMURLQueryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110601D65DEA5004D6725 /* LTMURLQueryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2671D95248D00C6CB37 /* LTMDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662021D6AAE1600492242 /* LTMDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2681D95248D00C6CB37 /* LTMPath.h in Headers */ = {isa = PBXBuildFile; fileRef = C02661FE1D6AAD1F00492242 /* LTMPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B2691D95248D00C6CB37 /* LTMTypeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662101D6ACC2300492242 /* LTMTypeUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B26A1D95248D00C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662311D6AD56300492242 /* LTMNSCoder+ExtendedCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B26B1D95248D00C6CB37 /* LTMNSKeyedUnarchiver+Safety.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662421D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B26C1D95248D00C6CB37 /* LTMNSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE340EE1D7EA65300AA66CC /* LTMNSDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0F7B26D1D9524A300C6CB37 /* LTMUIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = C026622E1D6ACFCF00492242 /* LTMUIColor+RGB.m */; };
+		C0F7B26E1D9524A300C6CB37 /* LTMStringDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662151D6ACE3600492242 /* LTMStringDrawing.m */; };
+		C0F7B26F1D9524A300C6CB37 /* LTMUIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662191D6ACE5A00492242 /* LTMUIImage+Alpha.m */; };
+		C0F7B2701D9524A300C6CB37 /* LTMUIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C026621B1D6ACE5A00492242 /* LTMUIImage+Resize.m */; };
+		C0F7B2711D9524A300C6CB37 /* LTMUIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = C026621D1D6ACE5A00492242 /* LTMUIImage+Rotate.m */; };
+		C0F7B2721D9524A300C6CB37 /* LTMUIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = C026621F1D6ACE5A00492242 /* LTMUIImage+RoundedCorner.m */; };
+		C0F7B2731D9524A300C6CB37 /* LTMUIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662211D6ACE5A00492242 /* LTMUIView+Snapshot.m */; };
+		C0F7B2741D9524A300C6CB37 /* LTMNSThread+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110551D65D922004D6725 /* LTMNSThread+Blocks.m */; };
+		C0F7B2751D9524A300C6CB37 /* LTMGeometryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110491D65CCA0004D6725 /* LTMGeometryUtils.m */; };
+		C0F7B2761D9524A300C6CB37 /* LTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C041101D1D65CA22004D6725 /* LTMBase64.m */; };
+		C0F7B2771D9524A300C6CB37 /* LTMHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110201D65CA22004D6725 /* LTMHex.m */; };
+		C0F7B2781D9524A300C6CB37 /* LTMJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110221D65CA22004D6725 /* LTMJSON.m */; };
+		C0F7B2791D9524A300C6CB37 /* LTMLightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110591D65DA83004D6725 /* LTMLightweightProxy.m */; };
+		C0F7B27A1D9524A300C6CB37 /* LTMMerge.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110241D65CA22004D6725 /* LTMMerge.m */; };
+		C0F7B27B1D9524A300C6CB37 /* LTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110261D65CA22004D6725 /* LTMStringEncoding.m */; };
+		C0F7B27C1D9524A300C6CB37 /* LTMURLArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110281D65CA22004D6725 /* LTMURLArguments.m */; };
+		C0F7B27D1D9524A300C6CB37 /* LTMURLCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C041102A1D65CA22004D6725 /* LTMURLCoder.m */; };
+		C0F7B27E1D9524A300C6CB37 /* LTMMath.m in Sources */ = {isa = PBXBuildFile; fileRef = C0746D1E1D73DFDE001EAFA6 /* LTMMath.m */; };
+		C0F7B27F1D9524A300C6CB37 /* LTMURLComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = C041105D1D65DE73004D6725 /* LTMURLComponents.m */; };
+		C0F7B2801D9524A300C6CB37 /* LTMURLQueryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110611D65DEA5004D6725 /* LTMURLQueryItem.m */; };
+		C0F7B2811D9524A300C6CB37 /* LTMDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662031D6AAE1600492242 /* LTMDigest.m */; };
+		C0F7B2821D9524A300C6CB37 /* LTMPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C02661FF1D6AAD1F00492242 /* LTMPath.m */; };
+		C0F7B2831D9524A300C6CB37 /* LTMTypeUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662111D6ACC2300492242 /* LTMTypeUtility.m */; };
+		C0F7B2841D9524A300C6CB37 /* LTMNSCoder+ExtendedCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662321D6AD56300492242 /* LTMNSCoder+ExtendedCoder.m */; };
+		C0F7B2851D9524A300C6CB37 /* LTMNSKeyedUnarchiver+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662431D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.m */; };
+		C0F7B2861D9524A300C6CB37 /* LTMNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE340EF1D7EA65300AA66CC /* LTMNSDictionary.m */; };
+		C0F7B2881D9524AB00C6CB37 /* LTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101E1D65CA22004D6725 /* LTMDefines.h */; };
+		C0F7B2891D9524AB00C6CB37 /* LTMUIColor+RGB.h in Headers */ = {isa = PBXBuildFile; fileRef = C026622D1D6ACFCF00492242 /* LTMUIColor+RGB.h */; };
+		C0F7B28A1D9524AB00C6CB37 /* LTMStringDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662141D6ACE3600492242 /* LTMStringDrawing.h */; };
+		C0F7B28B1D9524AB00C6CB37 /* LTMUIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662181D6ACE5A00492242 /* LTMUIImage+Alpha.h */; };
+		C0F7B28C1D9524AB00C6CB37 /* LTMUIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = C026621A1D6ACE5A00492242 /* LTMUIImage+Resize.h */; };
+		C0F7B28D1D9524AB00C6CB37 /* LTMUIImage+Rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = C026621C1D6ACE5A00492242 /* LTMUIImage+Rotate.h */; };
+		C0F7B28E1D9524AB00C6CB37 /* LTMUIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = C026621E1D6ACE5A00492242 /* LTMUIImage+RoundedCorner.h */; };
+		C0F7B28F1D9524AB00C6CB37 /* LTMUIView+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662201D6ACE5A00492242 /* LTMUIView+Snapshot.h */; };
+		C0F7B2901D9524AB00C6CB37 /* LTMLocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = C041104C1D65CDD7004D6725 /* LTMLocalizedString.h */; };
+		C0F7B2911D9524AB00C6CB37 /* LTMNSThread+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110541D65D922004D6725 /* LTMNSThread+Blocks.h */; };
+		C0F7B2921D9524AB00C6CB37 /* LTMGeometryUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110481D65CCA0004D6725 /* LTMGeometryUtils.h */; };
+		C0F7B2931D9524AB00C6CB37 /* LTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101C1D65CA22004D6725 /* LTMBase64.h */; };
+		C0F7B2941D9524AB00C6CB37 /* LTMHex.h in Headers */ = {isa = PBXBuildFile; fileRef = C041101F1D65CA22004D6725 /* LTMHex.h */; };
+		C0F7B2951D9524AB00C6CB37 /* LTMJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110211D65CA22004D6725 /* LTMJSON.h */; };
+		C0F7B2961D9524AB00C6CB37 /* LTMLightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110581D65DA83004D6725 /* LTMLightweightProxy.h */; };
+		C0F7B2971D9524AB00C6CB37 /* LTMMerge.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110231D65CA22004D6725 /* LTMMerge.h */; };
+		C0F7B2981D9524AB00C6CB37 /* LTMStringEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110251D65CA22004D6725 /* LTMStringEncoding.h */; };
+		C0F7B2991D9524AB00C6CB37 /* LTMURLArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110271D65CA22004D6725 /* LTMURLArguments.h */; };
+		C0F7B29A1D9524AB00C6CB37 /* LTMURLCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110291D65CA22004D6725 /* LTMURLCoder.h */; };
+		C0F7B29B1D9524AB00C6CB37 /* LTMMath.h in Headers */ = {isa = PBXBuildFile; fileRef = C0746D1D1D73DFDE001EAFA6 /* LTMMath.h */; };
+		C0F7B29C1D9524AB00C6CB37 /* LTMURLComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = C041105C1D65DE73004D6725 /* LTMURLComponents.h */; };
+		C0F7B29D1D9524AB00C6CB37 /* LTMURLQueryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110601D65DEA5004D6725 /* LTMURLQueryItem.h */; };
+		C0F7B29E1D9524AB00C6CB37 /* LTMDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662021D6AAE1600492242 /* LTMDigest.h */; };
+		C0F7B29F1D9524AC00C6CB37 /* LTMPath.h in Headers */ = {isa = PBXBuildFile; fileRef = C02661FE1D6AAD1F00492242 /* LTMPath.h */; };
+		C0F7B2A01D9524AC00C6CB37 /* LTMTypeUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662101D6ACC2300492242 /* LTMTypeUtility.h */; };
+		C0F7B2A11D9524AC00C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662311D6AD56300492242 /* LTMNSCoder+ExtendedCoder.h */; };
+		C0F7B2A21D9524AC00C6CB37 /* LTMNSKeyedUnarchiver+Safety.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662421D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.h */; };
+		C0F7B2A31D9524AC00C6CB37 /* LTMNSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE340EE1D7EA65300AA66CC /* LTMNSDictionary.h */; };
+		C0F7B2A61D952E4200C6CB37 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0F7B2A41D952E4200C6CB37 /* Info.plist */; };
+		C0F7B2A71D952E4200C6CB37 /* LTM.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F7B2A51D952E4200C6CB37 /* LTM.h */; };
+		CAE340F01D7EA65300AA66CC /* LTMNSDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE340EE1D7EA65300AA66CC /* LTMNSDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAE340F11D7EA65300AA66CC /* LTMNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE340EF1D7EA65300AA66CC /* LTMNSDictionary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C026624A1D6ADF0400492242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0410FF91D65CA0E004D6725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C04110011D65CA0E004D6725;
+			remoteInfo = LTM;
+		};
+		C041100E1D65CA0E004D6725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0410FF91D65CA0E004D6725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C04110011D65CA0E004D6725;
+			remoteInfo = LTM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C02661FE1D6AAD1F00492242 /* LTMPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMPath.h; sourceTree = "<group>"; };
+		C02661FF1D6AAD1F00492242 /* LTMPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMPath.m; sourceTree = "<group>"; };
+		C02662021D6AAE1600492242 /* LTMDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMDigest.h; sourceTree = "<group>"; };
+		C02662031D6AAE1600492242 /* LTMDigest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMDigest.m; sourceTree = "<group>"; };
+		C02662101D6ACC2300492242 /* LTMTypeUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMTypeUtility.h; sourceTree = "<group>"; };
+		C02662111D6ACC2300492242 /* LTMTypeUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMTypeUtility.m; sourceTree = "<group>"; };
+		C02662141D6ACE3600492242 /* LTMStringDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMStringDrawing.h; sourceTree = "<group>"; };
+		C02662151D6ACE3600492242 /* LTMStringDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMStringDrawing.m; sourceTree = "<group>"; };
+		C02662181D6ACE5A00492242 /* LTMUIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIImage+Alpha.h"; sourceTree = "<group>"; };
+		C02662191D6ACE5A00492242 /* LTMUIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIImage+Alpha.m"; sourceTree = "<group>"; };
+		C026621A1D6ACE5A00492242 /* LTMUIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIImage+Resize.h"; sourceTree = "<group>"; };
+		C026621B1D6ACE5A00492242 /* LTMUIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIImage+Resize.m"; sourceTree = "<group>"; };
+		C026621C1D6ACE5A00492242 /* LTMUIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIImage+Rotate.h"; sourceTree = "<group>"; };
+		C026621D1D6ACE5A00492242 /* LTMUIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIImage+Rotate.m"; sourceTree = "<group>"; };
+		C026621E1D6ACE5A00492242 /* LTMUIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		C026621F1D6ACE5A00492242 /* LTMUIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		C02662201D6ACE5A00492242 /* LTMUIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIView+Snapshot.h"; sourceTree = "<group>"; };
+		C02662211D6ACE5A00492242 /* LTMUIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIView+Snapshot.m"; sourceTree = "<group>"; };
+		C026622D1D6ACFCF00492242 /* LTMUIColor+RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIColor+RGB.h"; sourceTree = "<group>"; };
+		C026622E1D6ACFCF00492242 /* LTMUIColor+RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIColor+RGB.m"; sourceTree = "<group>"; };
+		C02662311D6AD56300492242 /* LTMNSCoder+ExtendedCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSCoder+ExtendedCoder.h"; sourceTree = "<group>"; };
+		C02662321D6AD56300492242 /* LTMNSCoder+ExtendedCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSCoder+ExtendedCoder.m"; sourceTree = "<group>"; };
+		C02662421D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSKeyedUnarchiver+Safety.h"; sourceTree = "<group>"; };
+		C02662431D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSKeyedUnarchiver+Safety.m"; sourceTree = "<group>"; };
+		C04110021D65CA0E004D6725 /* LTM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C041100C1D65CA0E004D6725 /* LTMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04110111D65CA0E004D6725 /* LTMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTMTests.m; sourceTree = "<group>"; };
+		C04110131D65CA0E004D6725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C041101C1D65CA22004D6725 /* LTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMBase64.h; sourceTree = "<group>"; };
+		C041101D1D65CA22004D6725 /* LTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMBase64.m; sourceTree = "<group>"; };
+		C041101E1D65CA22004D6725 /* LTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMDefines.h; sourceTree = "<group>"; };
+		C041101F1D65CA22004D6725 /* LTMHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMHex.h; sourceTree = "<group>"; };
+		C04110201D65CA22004D6725 /* LTMHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMHex.m; sourceTree = "<group>"; };
+		C04110211D65CA22004D6725 /* LTMJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMJSON.h; sourceTree = "<group>"; };
+		C04110221D65CA22004D6725 /* LTMJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMJSON.m; sourceTree = "<group>"; };
+		C04110231D65CA22004D6725 /* LTMMerge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMMerge.h; sourceTree = "<group>"; };
+		C04110241D65CA22004D6725 /* LTMMerge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMMerge.m; sourceTree = "<group>"; };
+		C04110251D65CA22004D6725 /* LTMStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMStringEncoding.h; sourceTree = "<group>"; };
+		C04110261D65CA22004D6725 /* LTMStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMStringEncoding.m; sourceTree = "<group>"; };
+		C04110271D65CA22004D6725 /* LTMURLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMURLArguments.h; sourceTree = "<group>"; };
+		C04110281D65CA22004D6725 /* LTMURLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMURLArguments.m; sourceTree = "<group>"; };
+		C04110291D65CA22004D6725 /* LTMURLCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMURLCoder.h; sourceTree = "<group>"; };
+		C041102A1D65CA22004D6725 /* LTMURLCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMURLCoder.m; sourceTree = "<group>"; };
+		C041103E1D65CB53004D6725 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C04110481D65CCA0004D6725 /* LTMGeometryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMGeometryUtils.h; sourceTree = "<group>"; };
+		C04110491D65CCA0004D6725 /* LTMGeometryUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMGeometryUtils.m; sourceTree = "<group>"; };
+		C041104C1D65CDD7004D6725 /* LTMLocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMLocalizedString.h; sourceTree = "<group>"; };
+		C04110521D65CF23004D6725 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C04110541D65D922004D6725 /* LTMNSThread+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSThread+Blocks.h"; sourceTree = "<group>"; };
+		C04110551D65D922004D6725 /* LTMNSThread+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSThread+Blocks.m"; sourceTree = "<group>"; };
+		C04110581D65DA83004D6725 /* LTMLightweightProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMLightweightProxy.h; sourceTree = "<group>"; };
+		C04110591D65DA83004D6725 /* LTMLightweightProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMLightweightProxy.m; sourceTree = "<group>"; };
+		C041105C1D65DE73004D6725 /* LTMURLComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMURLComponents.h; sourceTree = "<group>"; };
+		C041105D1D65DE73004D6725 /* LTMURLComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMURLComponents.m; sourceTree = "<group>"; };
+		C04110601D65DEA5004D6725 /* LTMURLQueryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMURLQueryItem.h; sourceTree = "<group>"; };
+		C04110611D65DEA5004D6725 /* LTMURLQueryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMURLQueryItem.m; sourceTree = "<group>"; };
+		C0746D1D1D73DFDE001EAFA6 /* LTMMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMMath.h; sourceTree = "<group>"; };
+		C0746D1E1D73DFDE001EAFA6 /* LTMMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMMath.m; sourceTree = "<group>"; };
+		C0F7B1C31D95234F00C6CB37 /* LTM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F7B1D01D95236F00C6CB37 /* LTM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F7B1DD1D95237C00C6CB37 /* LTM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F7B1EA1D9523BE00C6CB37 /* LTM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F7B2A41D952E4200C6CB37 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Framework/Info.plist; sourceTree = "<group>"; };
+		C0F7B2A51D952E4200C6CB37 /* LTM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LTM.h; path = Framework/LTM.h; sourceTree = "<group>"; };
+		CAE340EE1D7EA65300AA66CC /* LTMNSDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMNSDictionary.h; sourceTree = "<group>"; };
+		CAE340EF1D7EA65300AA66CC /* LTMNSDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMNSDictionary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0410FFE1D65CA0E004D6725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04110531D65CF23004D6725 /* UIKit.framework in Frameworks */,
+				C041103F1D65CB53004D6725 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04110091D65CA0E004D6725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C041100D1D65CA0E004D6725 /* LTM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1BF1D95234F00C6CB37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1CC1D95236F00C6CB37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1D91D95237C00C6CB37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1E61D9523BE00C6CB37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C026622C1D6ACE6400492242 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C026622D1D6ACFCF00492242 /* LTMUIColor+RGB.h */,
+				C026622E1D6ACFCF00492242 /* LTMUIColor+RGB.m */,
+				C02662141D6ACE3600492242 /* LTMStringDrawing.h */,
+				C02662151D6ACE3600492242 /* LTMStringDrawing.m */,
+				C02662181D6ACE5A00492242 /* LTMUIImage+Alpha.h */,
+				C02662191D6ACE5A00492242 /* LTMUIImage+Alpha.m */,
+				C026621A1D6ACE5A00492242 /* LTMUIImage+Resize.h */,
+				C026621B1D6ACE5A00492242 /* LTMUIImage+Resize.m */,
+				C026621C1D6ACE5A00492242 /* LTMUIImage+Rotate.h */,
+				C026621D1D6ACE5A00492242 /* LTMUIImage+Rotate.m */,
+				C026621E1D6ACE5A00492242 /* LTMUIImage+RoundedCorner.h */,
+				C026621F1D6ACE5A00492242 /* LTMUIImage+RoundedCorner.m */,
+				C02662201D6ACE5A00492242 /* LTMUIView+Snapshot.h */,
+				C02662211D6ACE5A00492242 /* LTMUIView+Snapshot.m */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C0410FF81D65CA0E004D6725 = {
+			isa = PBXGroup;
+			children = (
+				C04110521D65CF23004D6725 /* UIKit.framework */,
+				C041103E1D65CB53004D6725 /* CoreGraphics.framework */,
+				C04110041D65CA0E004D6725 /* LTM */,
+				C04110101D65CA0E004D6725 /* LTMTests */,
+				C04110031D65CA0E004D6725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C04110031D65CA0E004D6725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C04110021D65CA0E004D6725 /* LTM.framework */,
+				C041100C1D65CA0E004D6725 /* LTMTests.xctest */,
+				C0F7B1C31D95234F00C6CB37 /* LTM.framework */,
+				C0F7B1D01D95236F00C6CB37 /* LTM.framework */,
+				C0F7B1DD1D95237C00C6CB37 /* LTM.framework */,
+				C0F7B1EA1D9523BE00C6CB37 /* LTM.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C04110041D65CA0E004D6725 /* LTM */ = {
+			isa = PBXGroup;
+			children = (
+				C0F7B2A41D952E4200C6CB37 /* Info.plist */,
+				C0F7B2A51D952E4200C6CB37 /* LTM.h */,
+				C041101E1D65CA22004D6725 /* LTMDefines.h */,
+				C026622C1D6ACE6400492242 /* iOS */,
+				C041104C1D65CDD7004D6725 /* LTMLocalizedString.h */,
+				C04110541D65D922004D6725 /* LTMNSThread+Blocks.h */,
+				C04110551D65D922004D6725 /* LTMNSThread+Blocks.m */,
+				C04110481D65CCA0004D6725 /* LTMGeometryUtils.h */,
+				C04110491D65CCA0004D6725 /* LTMGeometryUtils.m */,
+				C041101C1D65CA22004D6725 /* LTMBase64.h */,
+				C041101D1D65CA22004D6725 /* LTMBase64.m */,
+				C041101F1D65CA22004D6725 /* LTMHex.h */,
+				C04110201D65CA22004D6725 /* LTMHex.m */,
+				C04110211D65CA22004D6725 /* LTMJSON.h */,
+				C04110221D65CA22004D6725 /* LTMJSON.m */,
+				C04110581D65DA83004D6725 /* LTMLightweightProxy.h */,
+				C04110591D65DA83004D6725 /* LTMLightweightProxy.m */,
+				C04110231D65CA22004D6725 /* LTMMerge.h */,
+				C04110241D65CA22004D6725 /* LTMMerge.m */,
+				C04110251D65CA22004D6725 /* LTMStringEncoding.h */,
+				C04110261D65CA22004D6725 /* LTMStringEncoding.m */,
+				C04110271D65CA22004D6725 /* LTMURLArguments.h */,
+				C04110281D65CA22004D6725 /* LTMURLArguments.m */,
+				C04110291D65CA22004D6725 /* LTMURLCoder.h */,
+				C041102A1D65CA22004D6725 /* LTMURLCoder.m */,
+				C0746D1D1D73DFDE001EAFA6 /* LTMMath.h */,
+				C0746D1E1D73DFDE001EAFA6 /* LTMMath.m */,
+				C041105C1D65DE73004D6725 /* LTMURLComponents.h */,
+				C041105D1D65DE73004D6725 /* LTMURLComponents.m */,
+				C04110601D65DEA5004D6725 /* LTMURLQueryItem.h */,
+				C04110611D65DEA5004D6725 /* LTMURLQueryItem.m */,
+				C02662021D6AAE1600492242 /* LTMDigest.h */,
+				C02662031D6AAE1600492242 /* LTMDigest.m */,
+				C02661FE1D6AAD1F00492242 /* LTMPath.h */,
+				C02661FF1D6AAD1F00492242 /* LTMPath.m */,
+				C02662101D6ACC2300492242 /* LTMTypeUtility.h */,
+				C02662111D6ACC2300492242 /* LTMTypeUtility.m */,
+				C02662311D6AD56300492242 /* LTMNSCoder+ExtendedCoder.h */,
+				C02662321D6AD56300492242 /* LTMNSCoder+ExtendedCoder.m */,
+				C02662421D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.h */,
+				C02662431D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.m */,
+				CAE340EE1D7EA65300AA66CC /* LTMNSDictionary.h */,
+				CAE340EF1D7EA65300AA66CC /* LTMNSDictionary.m */,
+			);
+			path = LTM;
+			sourceTree = "<group>";
+		};
+		C04110101D65CA0E004D6725 /* LTMTests */ = {
+			isa = PBXGroup;
+			children = (
+				C04110111D65CA0E004D6725 /* LTMTests.m */,
+				C04110131D65CA0E004D6725 /* Info.plist */,
+			);
+			path = LTMTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C0410FFF1D65CA0E004D6725 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04110621D65DEA5004D6725 /* LTMURLQueryItem.h in Headers */,
+				C026622A1D6ACE5A00492242 /* LTMUIView+Snapshot.h in Headers */,
+				C04110561D65D922004D6725 /* LTMNSThread+Blocks.h in Headers */,
+				C041102E1D65CA22004D6725 /* LTMHex.h in Headers */,
+				C02662161D6ACE3600492242 /* LTMStringDrawing.h in Headers */,
+				C041102D1D65CA22004D6725 /* LTMDefines.h in Headers */,
+				C041105E1D65DE73004D6725 /* LTMURLComponents.h in Headers */,
+				C02662041D6AAE1600492242 /* LTMDigest.h in Headers */,
+				C02662331D6AD56300492242 /* LTMNSCoder+ExtendedCoder.h in Headers */,
+				C02662241D6ACE5A00492242 /* LTMUIImage+Resize.h in Headers */,
+				C0746D1F1D73DFDE001EAFA6 /* LTMMath.h in Headers */,
+				C026622F1D6ACFCF00492242 /* LTMUIColor+RGB.h in Headers */,
+				C041104A1D65CCA0004D6725 /* LTMGeometryUtils.h in Headers */,
+				C04110381D65CA22004D6725 /* LTMURLCoder.h in Headers */,
+				C02662221D6ACE5A00492242 /* LTMUIImage+Alpha.h in Headers */,
+				C02662121D6ACC2300492242 /* LTMTypeUtility.h in Headers */,
+				C041104D1D65CDD7004D6725 /* LTMLocalizedString.h in Headers */,
+				C04110341D65CA22004D6725 /* LTMStringEncoding.h in Headers */,
+				C02662261D6ACE5A00492242 /* LTMUIImage+Rotate.h in Headers */,
+				C04110321D65CA22004D6725 /* LTMMerge.h in Headers */,
+				C04110361D65CA22004D6725 /* LTMURLArguments.h in Headers */,
+				C02662281D6ACE5A00492242 /* LTMUIImage+RoundedCorner.h in Headers */,
+				C041102B1D65CA22004D6725 /* LTMBase64.h in Headers */,
+				C02662001D6AAD1F00492242 /* LTMPath.h in Headers */,
+				C04110301D65CA22004D6725 /* LTMJSON.h in Headers */,
+				C02662441D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.h in Headers */,
+				C0F7B2A71D952E4200C6CB37 /* LTM.h in Headers */,
+				CAE340F01D7EA65300AA66CC /* LTMNSDictionary.h in Headers */,
+				C041105A1D65DA83004D6725 /* LTMLightweightProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1C01D95234F00C6CB37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F7B21A1D95242D00C6CB37 /* LTMDefines.h in Headers */,
+				C0F7B2051D95240D00C6CB37 /* LTMLocalizedString.h in Headers */,
+				C0F7B2061D95240D00C6CB37 /* LTMNSThread+Blocks.h in Headers */,
+				C0F7B2071D95240D00C6CB37 /* LTMGeometryUtils.h in Headers */,
+				C0F7B2081D95240D00C6CB37 /* LTMBase64.h in Headers */,
+				C0F7B2091D95240D00C6CB37 /* LTMHex.h in Headers */,
+				C0F7B20A1D95240D00C6CB37 /* LTMJSON.h in Headers */,
+				C0F7B20B1D95240D00C6CB37 /* LTMLightweightProxy.h in Headers */,
+				C0F7B20C1D95240D00C6CB37 /* LTMMerge.h in Headers */,
+				C0F7B20D1D95240D00C6CB37 /* LTMStringEncoding.h in Headers */,
+				C0F7B20E1D95240D00C6CB37 /* LTMURLArguments.h in Headers */,
+				C0F7B20F1D95240D00C6CB37 /* LTMURLCoder.h in Headers */,
+				C0F7B2101D95240D00C6CB37 /* LTMMath.h in Headers */,
+				C0F7B2111D95240D00C6CB37 /* LTMURLComponents.h in Headers */,
+				C0F7B2121D95240D00C6CB37 /* LTMURLQueryItem.h in Headers */,
+				C0F7B2131D95240D00C6CB37 /* LTMDigest.h in Headers */,
+				C0F7B2141D95240D00C6CB37 /* LTMPath.h in Headers */,
+				C0F7B2151D95240D00C6CB37 /* LTMTypeUtility.h in Headers */,
+				C0F7B2161D95240D00C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */,
+				C0F7B2171D95240D00C6CB37 /* LTMNSKeyedUnarchiver+Safety.h in Headers */,
+				C0F7B2181D95240D00C6CB37 /* LTMNSDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1CD1D95236F00C6CB37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F7B22F1D95246600C6CB37 /* LTMDefines.h in Headers */,
+				C0F7B2301D95246600C6CB37 /* LTMLocalizedString.h in Headers */,
+				C0F7B2311D95246600C6CB37 /* LTMNSThread+Blocks.h in Headers */,
+				C0F7B2321D95246600C6CB37 /* LTMGeometryUtils.h in Headers */,
+				C0F7B2331D95246600C6CB37 /* LTMBase64.h in Headers */,
+				C0F7B2341D95246600C6CB37 /* LTMHex.h in Headers */,
+				C0F7B2351D95246600C6CB37 /* LTMJSON.h in Headers */,
+				C0F7B2361D95246600C6CB37 /* LTMLightweightProxy.h in Headers */,
+				C0F7B2371D95246600C6CB37 /* LTMMerge.h in Headers */,
+				C0F7B2381D95246600C6CB37 /* LTMStringEncoding.h in Headers */,
+				C0F7B2391D95246600C6CB37 /* LTMURLArguments.h in Headers */,
+				C0F7B23A1D95246600C6CB37 /* LTMURLCoder.h in Headers */,
+				C0F7B23B1D95246600C6CB37 /* LTMMath.h in Headers */,
+				C0F7B23C1D95246600C6CB37 /* LTMURLComponents.h in Headers */,
+				C0F7B23D1D95246600C6CB37 /* LTMURLQueryItem.h in Headers */,
+				C0F7B23E1D95246600C6CB37 /* LTMDigest.h in Headers */,
+				C0F7B23F1D95246600C6CB37 /* LTMPath.h in Headers */,
+				C0F7B2401D95246600C6CB37 /* LTMTypeUtility.h in Headers */,
+				C0F7B2411D95246600C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */,
+				C0F7B2421D95246600C6CB37 /* LTMNSKeyedUnarchiver+Safety.h in Headers */,
+				C0F7B2431D95246600C6CB37 /* LTMNSDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1DA1D95237C00C6CB37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F7B2581D95248D00C6CB37 /* LTMDefines.h in Headers */,
+				C0F7B2591D95248D00C6CB37 /* LTMLocalizedString.h in Headers */,
+				C0F7B25A1D95248D00C6CB37 /* LTMNSThread+Blocks.h in Headers */,
+				C0F7B25B1D95248D00C6CB37 /* LTMGeometryUtils.h in Headers */,
+				C0F7B25C1D95248D00C6CB37 /* LTMBase64.h in Headers */,
+				C0F7B25D1D95248D00C6CB37 /* LTMHex.h in Headers */,
+				C0F7B25E1D95248D00C6CB37 /* LTMJSON.h in Headers */,
+				C0F7B25F1D95248D00C6CB37 /* LTMLightweightProxy.h in Headers */,
+				C0F7B2601D95248D00C6CB37 /* LTMMerge.h in Headers */,
+				C0F7B2611D95248D00C6CB37 /* LTMStringEncoding.h in Headers */,
+				C0F7B2621D95248D00C6CB37 /* LTMURLArguments.h in Headers */,
+				C0F7B2631D95248D00C6CB37 /* LTMURLCoder.h in Headers */,
+				C0F7B2641D95248D00C6CB37 /* LTMMath.h in Headers */,
+				C0F7B2651D95248D00C6CB37 /* LTMURLComponents.h in Headers */,
+				C0F7B2661D95248D00C6CB37 /* LTMURLQueryItem.h in Headers */,
+				C0F7B2671D95248D00C6CB37 /* LTMDigest.h in Headers */,
+				C0F7B2681D95248D00C6CB37 /* LTMPath.h in Headers */,
+				C0F7B2691D95248D00C6CB37 /* LTMTypeUtility.h in Headers */,
+				C0F7B26A1D95248D00C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */,
+				C0F7B26B1D95248D00C6CB37 /* LTMNSKeyedUnarchiver+Safety.h in Headers */,
+				C0F7B26C1D95248D00C6CB37 /* LTMNSDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1E71D9523BE00C6CB37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F7B2881D9524AB00C6CB37 /* LTMDefines.h in Headers */,
+				C0F7B2891D9524AB00C6CB37 /* LTMUIColor+RGB.h in Headers */,
+				C0F7B28A1D9524AB00C6CB37 /* LTMStringDrawing.h in Headers */,
+				C0F7B28B1D9524AB00C6CB37 /* LTMUIImage+Alpha.h in Headers */,
+				C0F7B28C1D9524AB00C6CB37 /* LTMUIImage+Resize.h in Headers */,
+				C0F7B28D1D9524AB00C6CB37 /* LTMUIImage+Rotate.h in Headers */,
+				C0F7B28E1D9524AB00C6CB37 /* LTMUIImage+RoundedCorner.h in Headers */,
+				C0F7B28F1D9524AB00C6CB37 /* LTMUIView+Snapshot.h in Headers */,
+				C0F7B2901D9524AB00C6CB37 /* LTMLocalizedString.h in Headers */,
+				C0F7B2911D9524AB00C6CB37 /* LTMNSThread+Blocks.h in Headers */,
+				C0F7B2921D9524AB00C6CB37 /* LTMGeometryUtils.h in Headers */,
+				C0F7B2931D9524AB00C6CB37 /* LTMBase64.h in Headers */,
+				C0F7B2941D9524AB00C6CB37 /* LTMHex.h in Headers */,
+				C0F7B2951D9524AB00C6CB37 /* LTMJSON.h in Headers */,
+				C0F7B2961D9524AB00C6CB37 /* LTMLightweightProxy.h in Headers */,
+				C0F7B2971D9524AB00C6CB37 /* LTMMerge.h in Headers */,
+				C0F7B2981D9524AB00C6CB37 /* LTMStringEncoding.h in Headers */,
+				C0F7B2991D9524AB00C6CB37 /* LTMURLArguments.h in Headers */,
+				C0F7B29A1D9524AB00C6CB37 /* LTMURLCoder.h in Headers */,
+				C0F7B29B1D9524AB00C6CB37 /* LTMMath.h in Headers */,
+				C0F7B29C1D9524AB00C6CB37 /* LTMURLComponents.h in Headers */,
+				C0F7B29D1D9524AB00C6CB37 /* LTMURLQueryItem.h in Headers */,
+				C0F7B29E1D9524AB00C6CB37 /* LTMDigest.h in Headers */,
+				C0F7B29F1D9524AC00C6CB37 /* LTMPath.h in Headers */,
+				C0F7B2A01D9524AC00C6CB37 /* LTMTypeUtility.h in Headers */,
+				C0F7B2A11D9524AC00C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */,
+				C0F7B2A21D9524AC00C6CB37 /* LTMNSKeyedUnarchiver+Safety.h in Headers */,
+				C0F7B2A31D9524AC00C6CB37 /* LTMNSDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C04110011D65CA0E004D6725 /* LTM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04110161D65CA0E004D6725 /* Build configuration list for PBXNativeTarget "LTM" */;
+			buildPhases = (
+				C0410FFD1D65CA0E004D6725 /* Sources */,
+				C0410FFE1D65CA0E004D6725 /* Frameworks */,
+				C0410FFF1D65CA0E004D6725 /* Headers */,
+				C04110001D65CA0E004D6725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTM;
+			productName = LTM;
+			productReference = C04110021D65CA0E004D6725 /* LTM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C041100B1D65CA0E004D6725 /* LTMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04110191D65CA0E004D6725 /* Build configuration list for PBXNativeTarget "LTMTests" */;
+			buildPhases = (
+				C04110081D65CA0E004D6725 /* Sources */,
+				C04110091D65CA0E004D6725 /* Frameworks */,
+				C041100A1D65CA0E004D6725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C041100F1D65CA0E004D6725 /* PBXTargetDependency */,
+			);
+			name = LTMTests;
+			productName = LTMTests;
+			productReference = C041100C1D65CA0E004D6725 /* LTMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0F7B1C21D95234F00C6CB37 /* LTM-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F7B1CA1D95234F00C6CB37 /* Build configuration list for PBXNativeTarget "LTM-macOS" */;
+			buildPhases = (
+				C0F7B1BE1D95234F00C6CB37 /* Sources */,
+				C0F7B1BF1D95234F00C6CB37 /* Frameworks */,
+				C0F7B1C01D95234F00C6CB37 /* Headers */,
+				C0F7B1C11D95234F00C6CB37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LTM-macOS";
+			productName = "LTM-macOS";
+			productReference = C0F7B1C31D95234F00C6CB37 /* LTM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0F7B1CF1D95236F00C6CB37 /* LTM-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F7B1D51D95236F00C6CB37 /* Build configuration list for PBXNativeTarget "LTM-tvOS" */;
+			buildPhases = (
+				C0F7B1CB1D95236F00C6CB37 /* Sources */,
+				C0F7B1CC1D95236F00C6CB37 /* Frameworks */,
+				C0F7B1CD1D95236F00C6CB37 /* Headers */,
+				C0F7B1CE1D95236F00C6CB37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LTM-tvOS";
+			productName = "LTM-tvOS";
+			productReference = C0F7B1D01D95236F00C6CB37 /* LTM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0F7B1DC1D95237C00C6CB37 /* LTM-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F7B1E21D95237C00C6CB37 /* Build configuration list for PBXNativeTarget "LTM-watchOS" */;
+			buildPhases = (
+				C0F7B1D81D95237C00C6CB37 /* Sources */,
+				C0F7B1D91D95237C00C6CB37 /* Frameworks */,
+				C0F7B1DA1D95237C00C6CB37 /* Headers */,
+				C0F7B1DB1D95237C00C6CB37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LTM-watchOS";
+			productName = "LTM-watchOS";
+			productReference = C0F7B1DD1D95237C00C6CB37 /* LTM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0F7B1E91D9523BE00C6CB37 /* LTM-Dynamic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F7B1EF1D9523BE00C6CB37 /* Build configuration list for PBXNativeTarget "LTM-Dynamic" */;
+			buildPhases = (
+				C0F7B1E51D9523BE00C6CB37 /* Sources */,
+				C0F7B1E61D9523BE00C6CB37 /* Frameworks */,
+				C0F7B1E71D9523BE00C6CB37 /* Headers */,
+				C0F7B1E81D9523BE00C6CB37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LTM-Dynamic";
+			productName = "LTM-Dynamic";
+			productReference = C0F7B1EA1D9523BE00C6CB37 /* LTM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0410FF91D65CA0E004D6725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wangxiaoxiang;
+				TargetAttributes = {
+					C02662461D6ADDED00492242 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C04110011D65CA0E004D6725 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C041100B1D65CA0E004D6725 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C0F7B1C21D95234F00C6CB37 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C0F7B1CF1D95236F00C6CB37 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C0F7B1DC1D95237C00C6CB37 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C0F7B1E91D9523BE00C6CB37 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C0410FFC1D65CA0E004D6725 /* Build configuration list for PBXProject "LTM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0410FF81D65CA0E004D6725;
+			productRefGroup = C04110031D65CA0E004D6725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C04110011D65CA0E004D6725 /* LTM */,
+				C02662461D6ADDED00492242 /* LTM-universal */,
+				C041100B1D65CA0E004D6725 /* LTMTests */,
+				C0F7B1E91D9523BE00C6CB37 /* LTM-Dynamic */,
+				C0F7B1C21D95234F00C6CB37 /* LTM-macOS */,
+				C0F7B1CF1D95236F00C6CB37 /* LTM-tvOS */,
+				C0F7B1DC1D95237C00C6CB37 /* LTM-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C04110001D65CA0E004D6725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F7B2A61D952E4200C6CB37 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C041100A1D65CA0E004D6725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1C11D95234F00C6CB37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1CE1D95236F00C6CB37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1DB1D95237C00C6CB37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1E81D9523BE00C6CB37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C026624C1D6ADF0600492242 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./scripts/build-universal-framework.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0410FFD1D65CA0E004D6725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02662451D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.m in Sources */,
+				C04110371D65CA22004D6725 /* LTMURLArguments.m in Sources */,
+				C02662341D6AD56300492242 /* LTMNSCoder+ExtendedCoder.m in Sources */,
+				C041102C1D65CA22004D6725 /* LTMBase64.m in Sources */,
+				C0746D201D73DFDE001EAFA6 /* LTMMath.m in Sources */,
+				C04110391D65CA22004D6725 /* LTMURLCoder.m in Sources */,
+				C04110571D65D922004D6725 /* LTMNSThread+Blocks.m in Sources */,
+				C02662301D6ACFCF00492242 /* LTMUIColor+RGB.m in Sources */,
+				C041102F1D65CA22004D6725 /* LTMHex.m in Sources */,
+				C02662271D6ACE5A00492242 /* LTMUIImage+Rotate.m in Sources */,
+				C04110351D65CA22004D6725 /* LTMStringEncoding.m in Sources */,
+				C026622B1D6ACE5A00492242 /* LTMUIView+Snapshot.m in Sources */,
+				C041105F1D65DE73004D6725 /* LTMURLComponents.m in Sources */,
+				C04110631D65DEA5004D6725 /* LTMURLQueryItem.m in Sources */,
+				C041105B1D65DA83004D6725 /* LTMLightweightProxy.m in Sources */,
+				C02662291D6ACE5A00492242 /* LTMUIImage+RoundedCorner.m in Sources */,
+				C04110331D65CA22004D6725 /* LTMMerge.m in Sources */,
+				CAE340F11D7EA65300AA66CC /* LTMNSDictionary.m in Sources */,
+				C04110311D65CA22004D6725 /* LTMJSON.m in Sources */,
+				C02662051D6AAE1600492242 /* LTMDigest.m in Sources */,
+				C02662171D6ACE3600492242 /* LTMStringDrawing.m in Sources */,
+				C02662251D6ACE5A00492242 /* LTMUIImage+Resize.m in Sources */,
+				C02662231D6ACE5A00492242 /* LTMUIImage+Alpha.m in Sources */,
+				C02662011D6AAD1F00492242 /* LTMPath.m in Sources */,
+				C02662131D6ACC2300492242 /* LTMTypeUtility.m in Sources */,
+				C041104B1D65CCA0004D6725 /* LTMGeometryUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04110081D65CA0E004D6725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04110121D65CA0E004D6725 /* LTMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1BE1D95234F00C6CB37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F7B1F21D9523FE00C6CB37 /* LTMNSThread+Blocks.m in Sources */,
+				C0F7B1F31D9523FE00C6CB37 /* LTMGeometryUtils.m in Sources */,
+				C0F7B1F41D9523FE00C6CB37 /* LTMBase64.m in Sources */,
+				C0F7B1F51D9523FE00C6CB37 /* LTMHex.m in Sources */,
+				C0F7B1F61D9523FE00C6CB37 /* LTMJSON.m in Sources */,
+				C0F7B1F71D9523FE00C6CB37 /* LTMLightweightProxy.m in Sources */,
+				C0F7B1F81D9523FE00C6CB37 /* LTMMerge.m in Sources */,
+				C0F7B1F91D9523FE00C6CB37 /* LTMStringEncoding.m in Sources */,
+				C0F7B1FA1D9523FE00C6CB37 /* LTMURLArguments.m in Sources */,
+				C0F7B1FB1D9523FE00C6CB37 /* LTMURLCoder.m in Sources */,
+				C0F7B1FC1D9523FE00C6CB37 /* LTMMath.m in Sources */,
+				C0F7B1FD1D9523FE00C6CB37 /* LTMURLComponents.m in Sources */,
+				C0F7B1FE1D9523FE00C6CB37 /* LTMURLQueryItem.m in Sources */,
+				C0F7B1FF1D9523FE00C6CB37 /* LTMDigest.m in Sources */,
+				C0F7B2001D9523FE00C6CB37 /* LTMPath.m in Sources */,
+				C0F7B2011D9523FE00C6CB37 /* LTMTypeUtility.m in Sources */,
+				C0F7B2021D9523FE00C6CB37 /* LTMNSCoder+ExtendedCoder.m in Sources */,
+				C0F7B2031D9523FE00C6CB37 /* LTMNSKeyedUnarchiver+Safety.m in Sources */,
+				C0F7B2041D9523FE00C6CB37 /* LTMNSDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1CB1D95236F00C6CB37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F7B21B1D95245200C6CB37 /* LTMNSThread+Blocks.m in Sources */,
+				C0F7B21C1D95245200C6CB37 /* LTMGeometryUtils.m in Sources */,
+				C0F7B21D1D95245200C6CB37 /* LTMBase64.m in Sources */,
+				C0F7B21E1D95245200C6CB37 /* LTMHex.m in Sources */,
+				C0F7B21F1D95245200C6CB37 /* LTMJSON.m in Sources */,
+				C0F7B2201D95245200C6CB37 /* LTMLightweightProxy.m in Sources */,
+				C0F7B2211D95245200C6CB37 /* LTMMerge.m in Sources */,
+				C0F7B2221D95245200C6CB37 /* LTMStringEncoding.m in Sources */,
+				C0F7B2231D95245200C6CB37 /* LTMURLArguments.m in Sources */,
+				C0F7B2241D95245200C6CB37 /* LTMURLCoder.m in Sources */,
+				C0F7B2251D95245200C6CB37 /* LTMMath.m in Sources */,
+				C0F7B2261D95245200C6CB37 /* LTMURLComponents.m in Sources */,
+				C0F7B2271D95245200C6CB37 /* LTMURLQueryItem.m in Sources */,
+				C0F7B2281D95245200C6CB37 /* LTMDigest.m in Sources */,
+				C0F7B2291D95245200C6CB37 /* LTMPath.m in Sources */,
+				C0F7B22A1D95245200C6CB37 /* LTMTypeUtility.m in Sources */,
+				C0F7B22B1D95245200C6CB37 /* LTMNSCoder+ExtendedCoder.m in Sources */,
+				C0F7B22C1D95245200C6CB37 /* LTMNSKeyedUnarchiver+Safety.m in Sources */,
+				C0F7B22D1D95245200C6CB37 /* LTMNSDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1D81D95237C00C6CB37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F7B2441D95247900C6CB37 /* LTMNSThread+Blocks.m in Sources */,
+				C0F7B2451D95247900C6CB37 /* LTMGeometryUtils.m in Sources */,
+				C0F7B2461D95247900C6CB37 /* LTMBase64.m in Sources */,
+				C0F7B2471D95247900C6CB37 /* LTMHex.m in Sources */,
+				C0F7B2481D95247900C6CB37 /* LTMJSON.m in Sources */,
+				C0F7B2491D95247900C6CB37 /* LTMLightweightProxy.m in Sources */,
+				C0F7B24A1D95247900C6CB37 /* LTMMerge.m in Sources */,
+				C0F7B24B1D95247900C6CB37 /* LTMStringEncoding.m in Sources */,
+				C0F7B24C1D95247900C6CB37 /* LTMURLArguments.m in Sources */,
+				C0F7B24D1D95247900C6CB37 /* LTMURLCoder.m in Sources */,
+				C0F7B24E1D95247900C6CB37 /* LTMMath.m in Sources */,
+				C0F7B24F1D95247900C6CB37 /* LTMURLComponents.m in Sources */,
+				C0F7B2501D95247900C6CB37 /* LTMURLQueryItem.m in Sources */,
+				C0F7B2511D95247900C6CB37 /* LTMDigest.m in Sources */,
+				C0F7B2521D95247900C6CB37 /* LTMPath.m in Sources */,
+				C0F7B2531D95247900C6CB37 /* LTMTypeUtility.m in Sources */,
+				C0F7B2541D95247900C6CB37 /* LTMNSCoder+ExtendedCoder.m in Sources */,
+				C0F7B2551D95247900C6CB37 /* LTMNSKeyedUnarchiver+Safety.m in Sources */,
+				C0F7B2561D95247900C6CB37 /* LTMNSDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F7B1E51D9523BE00C6CB37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F7B26D1D9524A300C6CB37 /* LTMUIColor+RGB.m in Sources */,
+				C0F7B26E1D9524A300C6CB37 /* LTMStringDrawing.m in Sources */,
+				C0F7B26F1D9524A300C6CB37 /* LTMUIImage+Alpha.m in Sources */,
+				C0F7B2701D9524A300C6CB37 /* LTMUIImage+Resize.m in Sources */,
+				C0F7B2711D9524A300C6CB37 /* LTMUIImage+Rotate.m in Sources */,
+				C0F7B2721D9524A300C6CB37 /* LTMUIImage+RoundedCorner.m in Sources */,
+				C0F7B2731D9524A300C6CB37 /* LTMUIView+Snapshot.m in Sources */,
+				C0F7B2741D9524A300C6CB37 /* LTMNSThread+Blocks.m in Sources */,
+				C0F7B2751D9524A300C6CB37 /* LTMGeometryUtils.m in Sources */,
+				C0F7B2761D9524A300C6CB37 /* LTMBase64.m in Sources */,
+				C0F7B2771D9524A300C6CB37 /* LTMHex.m in Sources */,
+				C0F7B2781D9524A300C6CB37 /* LTMJSON.m in Sources */,
+				C0F7B2791D9524A300C6CB37 /* LTMLightweightProxy.m in Sources */,
+				C0F7B27A1D9524A300C6CB37 /* LTMMerge.m in Sources */,
+				C0F7B27B1D9524A300C6CB37 /* LTMStringEncoding.m in Sources */,
+				C0F7B27C1D9524A300C6CB37 /* LTMURLArguments.m in Sources */,
+				C0F7B27D1D9524A300C6CB37 /* LTMURLCoder.m in Sources */,
+				C0F7B27E1D9524A300C6CB37 /* LTMMath.m in Sources */,
+				C0F7B27F1D9524A300C6CB37 /* LTMURLComponents.m in Sources */,
+				C0F7B2801D9524A300C6CB37 /* LTMURLQueryItem.m in Sources */,
+				C0F7B2811D9524A300C6CB37 /* LTMDigest.m in Sources */,
+				C0F7B2821D9524A300C6CB37 /* LTMPath.m in Sources */,
+				C0F7B2831D9524A300C6CB37 /* LTMTypeUtility.m in Sources */,
+				C0F7B2841D9524A300C6CB37 /* LTMNSCoder+ExtendedCoder.m in Sources */,
+				C0F7B2851D9524A300C6CB37 /* LTMNSKeyedUnarchiver+Safety.m in Sources */,
+				C0F7B2861D9524A300C6CB37 /* LTMNSDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C026624B1D6ADF0400492242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C04110011D65CA0E004D6725 /* LTM */;
+			targetProxy = C026624A1D6ADF0400492242 /* PBXContainerItemProxy */;
+		};
+		C041100F1D65CA0E004D6725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C04110011D65CA0E004D6725 /* LTM */;
+			targetProxy = C041100E1D65CA0E004D6725 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C02662481D6ADDED00492242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C02662491D6ADDED00492242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C04110141D65CA0E004D6725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C04110151D65CA0E004D6725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C04110171D65CA0E004D6725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LTM/Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = LTM/Framework/module.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C04110181D65CA0E004D6725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LTM/Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = LTM/Framework/module.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C041101A1D65CA0E004D6725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C041101B1D65CA0E004D6725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LTMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0F7B1C81D95234F00C6CB37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = LTM/Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = LTM/Framework/module.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTM;
+				PRODUCT_NAME = LTM;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C0F7B1C91D95234F00C6CB37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = LTM/Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = LTM/Framework/module.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTM;
+				PRODUCT_NAME = LTM;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C0F7B1D61D95236F00C6CB37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LTM/Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = LTM/Framework/module.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTM;
+				PRODUCT_NAME = LTM;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		C0F7B1D71D95236F00C6CB37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LTM/Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = LTM/Framework/module.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTM;
+				PRODUCT_NAME = LTM;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		C0F7B1E31D95237C00C6CB37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LTM/Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = LTM/Framework/module.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTM;
+				PRODUCT_NAME = LTM;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C0F7B1E41D95237C00C6CB37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LTM/Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = LTM/Framework/module.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTM;
+				PRODUCT_NAME = LTM;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		C0F7B1F01D9523BE00C6CB37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LTM/Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = LTM/Framework/module.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTM;
+				PRODUCT_NAME = LTM;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C0F7B1F11D9523BE00C6CB37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LTM/Framework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = LTM/Framework/module.modulemap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.youku.LTM;
+				PRODUCT_NAME = LTM;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C02662471D6ADDED00492242 /* Build configuration list for PBXAggregateTarget "LTM-universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02662481D6ADDED00492242 /* Debug */,
+				C02662491D6ADDED00492242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0410FFC1D65CA0E004D6725 /* Build configuration list for PBXProject "LTM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04110141D65CA0E004D6725 /* Debug */,
+				C04110151D65CA0E004D6725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C04110161D65CA0E004D6725 /* Build configuration list for PBXNativeTarget "LTM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04110171D65CA0E004D6725 /* Debug */,
+				C04110181D65CA0E004D6725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C04110191D65CA0E004D6725 /* Build configuration list for PBXNativeTarget "LTMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C041101A1D65CA0E004D6725 /* Debug */,
+				C041101B1D65CA0E004D6725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F7B1CA1D95234F00C6CB37 /* Build configuration list for PBXNativeTarget "LTM-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F7B1C81D95234F00C6CB37 /* Debug */,
+				C0F7B1C91D95234F00C6CB37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F7B1D51D95236F00C6CB37 /* Build configuration list for PBXNativeTarget "LTM-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F7B1D61D95236F00C6CB37 /* Debug */,
+				C0F7B1D71D95236F00C6CB37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F7B1E21D95237C00C6CB37 /* Build configuration list for PBXNativeTarget "LTM-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F7B1E31D95237C00C6CB37 /* Debug */,
+				C0F7B1E41D95237C00C6CB37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F7B1EF1D9523BE00C6CB37 /* Build configuration list for PBXNativeTarget "LTM-Dynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F7B1F01D9523BE00C6CB37 /* Debug */,
+				C0F7B1F11D9523BE00C6CB37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0410FF91D65CA0E004D6725 /* Project object */;
+}

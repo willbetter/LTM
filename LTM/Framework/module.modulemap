@@ -1,0 +1,6 @@
+framework module LTM {
+  umbrella header "LTM.h"
+
+  export *
+  module * { export * }
+}
