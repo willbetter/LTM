@@ -8,7 +8,27 @@
 
 #import <Foundation/Foundation.h>
 
+
+FOUNDATION_EXPORT BOOL LTMNSStringIsEmpty(NSString *string);
+
+FOUNDATION_EXPORT BOOL LTMNSArrayIsEmpty(NSArray *array);
+
+FOUNDATION_EXPORT BOOL LTMNDictionaryIsEmpty(NSDictionary *dictionary);
+
+FOUNDATION_EXPORT BOOL LTMNSHashTableIsEmpty(NSHashTable *hashTable);
+
+FOUNDATION_EXPORT BOOL LTMNSDataIsEmpty(NSData *data);
+
+FOUNDATION_EXPORT BOOL LTMNSSetIsEmpty(NSSet *set);
+
+FOUNDATION_EXPORT BOOL LTMNSIndexSetIsEmpty(NSIndexSet *set);
+
+FOUNDATION_EXPORT BOOL LTMNSOrderedSetIsEmpty(NSOrderedSet *set);
+
+
 @interface LTMTypeUtility : NSObject
+
++ (NSSet *)textLikeEmptyItems;
 
 //MARK:object
 + (NSString *)stringValue:(id)object;

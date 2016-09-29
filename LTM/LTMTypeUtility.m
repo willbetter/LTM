@@ -9,8 +9,75 @@
 #import "LTMTypeUtility.h"
 #import "LTMDefines.h"
 
+
+BOOL LTMNSStringisEmpty(NSString *string){
+    if ([[LTMTypeUtility textLikeEmptyItems] containsObject:string]) {
+        return YES;
+    }
+    if (string.length == 0) {
+        return YES;
+    }
+    
+    
+    return NO;
+}
+
+BOOL LTMNSArrayIsEmpty(NSArray *array) {
+    if (array.count > 0 ) {
+        return NO;
+    }
+    return YES;
+}
+
+BOOL LTMNDictionaryIsEmpty(NSDictionary *dictionary) {
+    if (dictionary.count > 0) {
+        return NO;
+    }
+    return YES;
+}
+
+BOOL LTMNSHashTableIsEmpty(NSHashTable *hashTable){
+    if (hashTable.count > 0) {
+        return NO;
+    }
+    return YES;
+}
+
+FOUNDATION_EXPORT BOOL LTMNSDataIsEmpty(NSData *data) {
+    if (data.length > 0) {
+        return NO;
+    }
+    return YES;
+}
+
+FOUNDATION_EXPORT BOOL LTMNSSetIsEmpty(NSSet *set) {
+    if (set.count > 0) {
+        return NO;
+    }
+    return YES;
+}
+
+FOUNDATION_EXPORT BOOL LTMNSIndexSetIsEmpty(NSIndexSet *set) {
+    if (set.count > 0) {
+        return NO;
+    }
+    return YES;
+}
+
+FOUNDATION_EXPORT BOOL LTMNSOrderedSetIsEmpty(NSOrderedSet *set) {
+    if (set.count > 0) {
+        return NO;
+    }
+    return YES;
+}
+
 @implementation LTMTypeUtility
 #pragma mark - Class Methods
+
++ (NSSet *)textLikeEmptyItems{
+    NSSet *set = [NSSet setWithObjects:[NSNull null],@"nil",@" ", nil];
+    return set;
+}
 
 //MARK:object
 + (NSString *)stringValue:(id)object {
