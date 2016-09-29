@@ -6,7 +6,14 @@
 //  Copyright © 2016年 wangxiaoxiang. All rights reserved.
 //
 
+
+#include <TargetConditionals.h>
+
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
+#else
+#import <Cocoa/Cocoa.h>
+#endif
 
 //! Project version number for LTM.
 FOUNDATION_EXPORT double LTMVersionNumber;
@@ -40,7 +47,7 @@ FOUNDATION_EXPORT const unsigned char LTMVersionString[];
 #import <LTM/LTMMath.h>
 #import <LTM/LTMNSDictionary.h>
 
-#if LTM_IOS_SDK
+#if TARGET_OS_IPHONE && !TARGET_OS_WATCH
 #import <LTM/LTMStringDrawing.h>
 #import <LTM/LTMUIColor+RGB.h>
 
