@@ -47,14 +47,15 @@ FOUNDATION_EXPORT const unsigned char LTMVersionString[];
 #import <LTM/LTMMath.h>
 #import <LTM/LTMNSDictionary.h>
 
-#if TARGET_OS_IPHONE && !TARGET_OS_WATCH
+#if TARGET_OS_IPHONE
 #import <LTM/LTMStringDrawing.h>
 #import <LTM/LTMUIColor+RGB.h>
-
 #import <LTM/LTMUIImage+Alpha.h>
 #import <LTM/LTMUIImage+Resize.h>
 #import <LTM/LTMUIImage+Rotate.h>
 #import <LTM/LTMUIImage+RoundedCorner.h>
+#if !TARGET_OS_WATCH
 #import <LTM/LTMUIView+Snapshot.h>
+#endif
 #endif
 

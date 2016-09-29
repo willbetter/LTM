@@ -68,6 +68,7 @@
          interpolationQuality:quality];
 }
 
+#if !TARGET_OS_WATCH
 // Resizes the image according to the given content mode, taking into account the image's orientation
 - (UIImage *)ltm_resizedImageWithContentMode:(UIViewContentMode)contentMode
                                   bounds:(CGSize)bounds
@@ -93,6 +94,7 @@
     
     return [self ltm_resizedImage:newSize interpolationQuality:quality];
 }
+#endif
 
 #pragma mark -
 #pragma mark Private helper methods

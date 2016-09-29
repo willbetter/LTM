@@ -21,10 +21,11 @@
 - (UIImage *)ltm_resizedImage:(CGSize)newSize
          interpolationQuality:(CGInterpolationQuality)quality;
 
-
+#if !TARGET_OS_WATCH
 - (UIImage *)ltm_resizedImageWithContentMode:(UIViewContentMode)contentMode
                                       bounds:(CGSize)bounds
                         interpolationQuality:(CGInterpolationQuality)quality;
+#endif
 @end
 
 #endif //LTM_IOS_SDK

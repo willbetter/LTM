@@ -96,6 +96,18 @@
 		C0764A2A1D9D24CE0038018F /* LTMUIImage+Rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = C026621C1D6ACE5A00492242 /* LTMUIImage+Rotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0764A2B1D9D24CE0038018F /* LTMUIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = C026621E1D6ACE5A00492242 /* LTMUIImage+RoundedCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0764A2C1D9D24CE0038018F /* LTMUIView+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662201D6ACE5A00492242 /* LTMUIView+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0764A931D9D2D6B0038018F /* LTMUIColor+RGB.h in Headers */ = {isa = PBXBuildFile; fileRef = C026622D1D6ACFCF00492242 /* LTMUIColor+RGB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0764A941D9D2D770038018F /* LTMUIColor+RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = C026622E1D6ACFCF00492242 /* LTMUIColor+RGB.m */; };
+		C0764A951D9D2DC10038018F /* LTMStringDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662141D6ACE3600492242 /* LTMStringDrawing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0764A961D9D2DC60038018F /* LTMStringDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662151D6ACE3600492242 /* LTMStringDrawing.m */; };
+		C0764A971D9D2E140038018F /* LTMUIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = C02662181D6ACE5A00492242 /* LTMUIImage+Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0764A981D9D2E140038018F /* LTMUIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = C026621A1D6ACE5A00492242 /* LTMUIImage+Resize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0764A991D9D2E140038018F /* LTMUIImage+Rotate.h in Headers */ = {isa = PBXBuildFile; fileRef = C026621C1D6ACE5A00492242 /* LTMUIImage+Rotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0764A9A1D9D2E140038018F /* LTMUIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = C026621E1D6ACE5A00492242 /* LTMUIImage+RoundedCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0764A9B1D9D2E1C0038018F /* LTMUIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = C02662191D6ACE5A00492242 /* LTMUIImage+Alpha.m */; };
+		C0764A9C1D9D2E1C0038018F /* LTMUIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C026621B1D6ACE5A00492242 /* LTMUIImage+Resize.m */; };
+		C0764A9D1D9D2E1C0038018F /* LTMUIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = C026621D1D6ACE5A00492242 /* LTMUIImage+Rotate.m */; };
+		C0764A9E1D9D2E1C0038018F /* LTMUIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = C026621F1D6ACE5A00492242 /* LTMUIImage+RoundedCorner.m */; };
 		C0F7B1F21D9523FE00C6CB37 /* LTMNSThread+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110551D65D922004D6725 /* LTMNSThread+Blocks.m */; };
 		C0F7B1F31D9523FE00C6CB37 /* LTMGeometryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110491D65CCA0004D6725 /* LTMGeometryUtils.m */; };
 		C0F7B1F41D9523FE00C6CB37 /* LTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C041101D1D65CA22004D6725 /* LTMBase64.m */; };
@@ -622,12 +634,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0764A951D9D2DC10038018F /* LTMStringDrawing.h in Headers */,
 				C0764A1E1D9D24630038018F /* LTM.h in Headers */,
+				C0764A931D9D2D6B0038018F /* LTMUIColor+RGB.h in Headers */,
 				C0F7B2581D95248D00C6CB37 /* LTMDefines.h in Headers */,
 				C0F7B2591D95248D00C6CB37 /* LTMLocalizedString.h in Headers */,
 				C0F7B25A1D95248D00C6CB37 /* LTMNSThread+Blocks.h in Headers */,
 				C0F7B25B1D95248D00C6CB37 /* LTMGeometryUtils.h in Headers */,
+				C0764A9A1D9D2E140038018F /* LTMUIImage+RoundedCorner.h in Headers */,
 				C0F7B25C1D95248D00C6CB37 /* LTMBase64.h in Headers */,
+				C0764A981D9D2E140038018F /* LTMUIImage+Resize.h in Headers */,
 				C0F7B25D1D95248D00C6CB37 /* LTMHex.h in Headers */,
 				C0F7B25E1D95248D00C6CB37 /* LTMJSON.h in Headers */,
 				C0F7B25F1D95248D00C6CB37 /* LTMLightweightProxy.h in Headers */,
@@ -637,8 +653,10 @@
 				C0F7B2631D95248D00C6CB37 /* LTMURLCoder.h in Headers */,
 				C0F7B2641D95248D00C6CB37 /* LTMMath.h in Headers */,
 				C0F7B2651D95248D00C6CB37 /* LTMURLComponents.h in Headers */,
+				C0764A971D9D2E140038018F /* LTMUIImage+Alpha.h in Headers */,
 				C0F7B2661D95248D00C6CB37 /* LTMURLQueryItem.h in Headers */,
 				C0F7B2671D95248D00C6CB37 /* LTMDigest.h in Headers */,
+				C0764A991D9D2E140038018F /* LTMUIImage+Rotate.h in Headers */,
 				C0F7B2681D95248D00C6CB37 /* LTMPath.h in Headers */,
 				C0F7B2691D95248D00C6CB37 /* LTMTypeUtility.h in Headers */,
 				C0F7B26A1D95248D00C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */,
@@ -1015,13 +1033,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0764A9B1D9D2E1C0038018F /* LTMUIImage+Alpha.m in Sources */,
 				C0F7B2441D95247900C6CB37 /* LTMNSThread+Blocks.m in Sources */,
 				C0F7B2451D95247900C6CB37 /* LTMGeometryUtils.m in Sources */,
 				C0F7B2461D95247900C6CB37 /* LTMBase64.m in Sources */,
+				C0764A941D9D2D770038018F /* LTMUIColor+RGB.m in Sources */,
+				C0764A961D9D2DC60038018F /* LTMStringDrawing.m in Sources */,
+				C0764A9D1D9D2E1C0038018F /* LTMUIImage+Rotate.m in Sources */,
 				C0F7B2471D95247900C6CB37 /* LTMHex.m in Sources */,
 				C0F7B2481D95247900C6CB37 /* LTMJSON.m in Sources */,
+				C0764A9C1D9D2E1C0038018F /* LTMUIImage+Resize.m in Sources */,
 				C0F7B2491D95247900C6CB37 /* LTMLightweightProxy.m in Sources */,
 				C0F7B24A1D95247900C6CB37 /* LTMMerge.m in Sources */,
+				C0764A9E1D9D2E1C0038018F /* LTMUIImage+RoundedCorner.m in Sources */,
 				C0F7B24B1D95247900C6CB37 /* LTMStringEncoding.m in Sources */,
 				C0F7B24C1D95247900C6CB37 /* LTMURLArguments.m in Sources */,
 				C0F7B24D1D95247900C6CB37 /* LTMURLCoder.m in Sources */,
