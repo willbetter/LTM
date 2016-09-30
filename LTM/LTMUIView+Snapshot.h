@@ -5,10 +5,7 @@
 //  Created by wangxiaoxiang on 16/7/17.
 //  Copyright © 2016年 Youku. All rights reserved.
 //
-
 #import <UIKit/UIKit.h>
-
-#if LTM_IOS_SDK
 
 @interface UIView (LTMUIViewSnapshotAdditions)
 /**
@@ -18,5 +15,3 @@
 - (UIImage *)ltm_snapshot;
 
 @end
-
-#endif //LTM_IOS_SDK

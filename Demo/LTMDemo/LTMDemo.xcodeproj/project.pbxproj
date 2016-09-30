@@ -384,6 +384,7 @@
 				C07649981D9D22660038018F /* Frameworks */,
 				C07649991D9D22660038018F /* Resources */,
 				C07649DD1D9D22A60038018F /* Embed Watch Content */,
+				C0764AB81D9E1D720038018F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -624,6 +625,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C0764AB81D9E1D720038018F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"$BUILD_DIR\"\necho \"$CONFIGURATION\"\necho \"$EFFECTIVE_PLATFORM_NAME\"\n\necho \"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME\"\n\nLTM_PATH=\"$BUILD_DIR/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME\"\n\nls -al $LTM_PATH";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C07649971D9D22660038018F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -842,6 +859,7 @@
 				INFOPLIST_FILE = "LTMDemo-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.youku.LTMDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -855,6 +873,7 @@
 				INFOPLIST_FILE = "LTMDemo-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.youku.LTMDemo-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -867,6 +886,7 @@
 				DEVELOPMENT_TEAM = G497YX6CBT;
 				INFOPLIST_FILE = "LTMDemo-watchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.youku.LTMDemo-iOS.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -883,6 +903,7 @@
 				DEVELOPMENT_TEAM = G497YX6CBT;
 				INFOPLIST_FILE = "LTMDemo-watchOS Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.youku.LTMDemo-iOS.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -1007,6 +1028,7 @@
 				C07649B11D9D22660038018F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C07649D61D9D22A60038018F /* Build configuration list for PBXNativeTarget "LTMDemo-watchOS Extension" */ = {
 			isa = XCConfigurationList;
@@ -1015,6 +1037,7 @@
 				C07649D81D9D22A60038018F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C07649DA1D9D22A60038018F /* Build configuration list for PBXNativeTarget "LTMDemo-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -1023,6 +1046,7 @@
 				C07649DC1D9D22A60038018F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C07649F31D9D22BF0038018F /* Build configuration list for PBXNativeTarget "LTMDemo-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -1031,6 +1055,7 @@
 				C07649F51D9D22BF0038018F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0764A0B1D9D22D90038018F /* Build configuration list for PBXNativeTarget "LTMDemo-macOS" */ = {
 			isa = XCConfigurationList;
@@ -1039,6 +1064,7 @@
 				C0764A0D1D9D22D90038018F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

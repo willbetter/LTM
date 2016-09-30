@@ -6,9 +6,6 @@
 #import "LTMUIImage+RoundedCorner.h"
 #import "LTMUIImage+Alpha.h"
 
-
-#if LTM_IOS_SDK
-
 @implementation UIImage (LTMUIImageRoundedCornerAdditions)
 
 // Creates a copy of this image with rounded corners
@@ -75,5 +72,3 @@
 }
 
 @end
-
-#endif //LTM_IOS_SDK

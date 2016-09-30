@@ -17,6 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIFont *font = [UIFont systemFontOfSize:18];
+    printf("font:%f",[font ltm_lineHeight]);
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

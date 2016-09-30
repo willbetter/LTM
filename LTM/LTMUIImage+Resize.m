@@ -7,8 +7,6 @@
 #import "LTMUIImage+RoundedCorner.h"
 #import "LTMUIImage+Alpha.h"
 
-
-#if LTM_IOS_SDK
 @implementation UIImage (LTMUIImageResizeAdditions)
 
 // Returns a copy of this image that is cropped to the given bounds.
@@ -20,7 +18,7 @@
     CGImageRelease(imageRef);
     return croppedImage;
 }
-
+#if !TARGET_OS_WATCH
 // Returns a copy of this image that is squared to the thumbnail size.
 // If transparentBorder is non-zero, a transparent border of the given size will be added around the edges of the thumbnail. (Adding a transparent border of at least one pixel in size has the side-effect of antialiasing the edges of the image when rotating it using Core Animation.)
 - (UIImage *)ltm_thumbnailImage:(NSInteger)thumbnailSize
@@ -68,7 +66,7 @@
          interpolationQuality:quality];
 }
 
-#if !TARGET_OS_WATCH
+
 // Resizes the image according to the given content mode, taking into account the image's orientation
 - (UIImage *)ltm_resizedImageWithContentMode:(UIViewContentMode)contentMode
                                   bounds:(CGSize)bounds
@@ -185,5 +183,3 @@
 }
 
 @end
-
-#endif //LTM_IOS_SDK

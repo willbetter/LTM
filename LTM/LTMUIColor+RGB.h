@@ -5,11 +5,8 @@
 //  Created by guoyaoyuan on 13-4-4.
 //  Copyright (c) 2013 live Interactive. All rights reserved.
 //
-
 #import <UIKit/UIKit.h>
 
-
-#if LTM_IOS_SDK
 /**
  *  返回一个UIColor对象
  *
@@ -33,5 +30,3 @@ UIKIT_EXTERN UIColor * LTMUIColorRGBA(uint8_t r, uint8_t g, uint8_t b, CGFloat a
 + (UIColor *)ltm_colorWithRed:(uint8_t)red green:(uint8_t)green blue:(uint8_t)blue;
 + (UIColor *)ltm_colorWithRed:(uint8_t)red green:(uint8_t)green blue:(uint8_t)blue alpha:(CGFloat)alpha;
 @end
-
-#endif //LTM_IOS_SDK

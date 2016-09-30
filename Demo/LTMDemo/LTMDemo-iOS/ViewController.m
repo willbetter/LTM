@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
-#import <LTM/LTM.h>
 
+#if 0
+#import <LTM/LTMUIView+Snapshot.h>
+#else
+#import <LTM/LTM.h>
+#endif
 @interface ViewController ()
 
 @end
@@ -17,6 +21,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIFont *font = [UIFont systemFontOfSize:18];
+    printf("font:%f",[font ltm_lineHeight]);
+    
+    NSLog(@"\n%@\n",[self.view ltm_subtreeDescription]);
     // Do any additional setup after loading the view, typically from a nib.
 }
 

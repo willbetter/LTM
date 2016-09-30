@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-#if LTM_IOS_SDK
-
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LTMStringDrawing : NSObject
@@ -57,5 +55,3 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 NS_ASSUME_NONNULL_END
-
-#endif //LTM_IOS_SDK

@@ -9,7 +9,7 @@
 #ifndef LTMDefines_h
 #define LTMDefines_h
 
-
+#include <TargetConditionals.h>
 #import <Foundation/Foundation.h>
 
 #if !defined(LTM_INLINE)

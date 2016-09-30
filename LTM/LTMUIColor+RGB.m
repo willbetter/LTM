@@ -8,8 +8,6 @@
 
 #import "LTMUIColor+RGB.h"
 
-#if LTM_IOS_SDK
-
 static const CGFloat kLTMRGBMax = 255.0f;
 static const uint32_t kColorMaskRed     = 0xFF000000;
 static const uint32_t kColorMaskGreen   = 0xFF0000;
@@ -72,4 +70,3 @@ UIColor *LTMUIColorRGB(uint8_t r, uint8_t g, uint8_t b) {
 }
 
 @end
-#endif //LTM_IOS_SDK

@@ -5,8 +5,6 @@
 
 #import "LTMUIImage+Alpha.h"
 
-#if LTM_IOS_SDK
-
 @implementation UIImage (LTMUIImageAlphaAdditions)
 
 // Returns true if the image has an alpha layer
@@ -122,5 +120,3 @@
 }
 
 @end
-
-#endif //LTM_IOS_SDK

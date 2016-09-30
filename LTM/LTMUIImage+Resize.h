@@ -7,11 +7,11 @@
 #import <UIKit/UIKit.h>
 
 
-#if LTM_IOS_SDK
+
 @interface UIImage (LTMUIImageResizeAdditions)
 
 - (UIImage *)ltm_croppedImage:(CGRect)bounds;
-
+#if !TARGET_OS_WATCH
 - (UIImage *)ltm_thumbnailImage:(NSInteger)thumbnailSize
               transparentBorder:(NSUInteger)borderSize
                    cornerRadius:(NSUInteger)cornerRadius
@@ -21,11 +21,9 @@
 - (UIImage *)ltm_resizedImage:(CGSize)newSize
          interpolationQuality:(CGInterpolationQuality)quality;
 
-#if !TARGET_OS_WATCH
+
 - (UIImage *)ltm_resizedImageWithContentMode:(UIViewContentMode)contentMode
                                       bounds:(CGSize)bounds
                         interpolationQuality:(CGInterpolationQuality)quality;
 #endif
 @end
-
-#endif //LTM_IOS_SDK

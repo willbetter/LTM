@@ -8,8 +8,6 @@
 
 #import "LTMStringDrawing.h"
 
-
-#if LTM_IOS_SDK
 @implementation LTMStringDrawing
 
 @end
@@ -84,5 +82,3 @@
 }
 
 @end
-
-#endif //LTM_IOS_SDK

@@ -11,7 +11,7 @@
 
 #if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
-#else
+#elif TARGET_OS_MAC
 #import <Cocoa/Cocoa.h>
 #endif
 
@@ -21,7 +21,7 @@ FOUNDATION_EXPORT double LTMVersionNumber;
 //! Project version string for LTM.
 FOUNDATION_EXPORT const unsigned char LTMVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <LTM/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <LTM/PublicHeader.h >
 
 
 #import <LTM/LTMDefines.h>
@@ -54,8 +54,11 @@ FOUNDATION_EXPORT const unsigned char LTMVersionString[];
 #import <LTM/LTMUIImage+Resize.h>
 #import <LTM/LTMUIImage+Rotate.h>
 #import <LTM/LTMUIImage+RoundedCorner.h>
-#if !TARGET_OS_WATCH
-#import <LTM/LTMUIView+Snapshot.h>
+#import <LTM/LTMUIFont+LineHeight.h>
 #endif
+
+#if TARGET_OS_IPHONE && (TARGET_OS_IOS || TARGET_OS_TV) && !TARGET_OS_WATCH
+#import <LTM/LTMUIView+Snapshot.h>
+#import <LTM/LTMUIView+SubtreeDescription.h>
 #endif
 

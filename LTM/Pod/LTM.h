@@ -5,8 +5,13 @@
 //  Created by wangxiaoxiang on 16/8/18.
 //  Copyright © 2016年 wangxiaoxiang. All rights reserved.
 //
+#include <TargetConditionals.h>
 
+#if TARGET_OS_IPHONE
 #import <UIKit/UIKit.h>
+#else
+#import <Cocoa/Cocoa.h>
+#endif
 
 #import "LTMDefines.h"
 
@@ -38,6 +43,9 @@
 #import "LTMUIImage+Resize.h"
 #import "LTMUIImage+Rotate.h"
 #import "LTMUIImage+RoundedCorner.h"
+#import "LTMUIFont+LineHeight.h"
+#if !TARGET_OS_WATCH
 #import "LTMUIView+Snapshot.h"
-#endif
+#endif //!TARGET_OS_WATCH
+#endif //LTM_IOS_SDK
 

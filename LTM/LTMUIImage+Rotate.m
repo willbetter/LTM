@@ -8,9 +8,6 @@
 
 #import "LTMUIImage+Rotate.h"
 
-
-#if LTM_IOS_SDK
-
 UIKIT_STATIC_INLINE CGSize _LTMSwapWidthAndHeight(CGSize size) {
     CGFloat  tempWidth = size.width;
     
@@ -109,5 +106,3 @@ UIKIT_STATIC_INLINE CGSize _LTMSwapWidthAndHeight(CGSize size) {
 }
 
 @end
-
-#endif //LTM_IOS_SDK

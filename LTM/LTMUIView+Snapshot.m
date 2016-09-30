@@ -8,17 +8,12 @@
 
 #import "LTMUIView+Snapshot.h"
 
-#if LTM_IOS_SDK
-
 static BOOL g_drawViewHierarchyInRect = NO;
 
 @implementation UIView (LTMUIViewSnapshotAdditions)
 
-+ (void)initialize
-{
-    if (self == [UIView class]) {
-        g_drawViewHierarchyInRect = [self respondsToSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)];
-    }
++ (void)load {
+    g_drawViewHierarchyInRect = [self respondsToSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)];
 }
 
 -(UIImage *)ltm_snapshot {
@@ -39,5 +34,3 @@ static BOOL g_drawViewHierarchyInRect = NO;
 }
 
 @end
-
-#endif //LTM_IOS_SDK

@@ -5,15 +5,10 @@
 //  Created by wangxiaoxiang on 16/7/17.
 //  Copyright © 2016年 Youku. All rights reserved.
 //
-
 #import <UIKit/UIKit.h>
 
-
-#if LTM_IOS_SDK
 @interface UIImage (LTMUIImageRotateAdditions)
 
 - (UIImage *)ltm_rotatedImageWithOrientation:(UIImageOrientation)targetOrientation;
 
 @end
-
-#endif //LTM_IOS_SDK
