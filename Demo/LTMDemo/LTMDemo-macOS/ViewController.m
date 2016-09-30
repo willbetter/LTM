@@ -13,6 +13,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+   
+#if TARGET_OS_IPHONE
+     NSLog(@"Hello iOS");
+#endif
     // Do any additional setup after loading the view.
 }
 
