@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7844076D035EA882CD4AF4F75CA0B708DB0AE36B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7844076D035EA882CD4AF4F75CA0B708DB0AE36B" : 9223372036854775807,
+    "9C8423DB0139B37504A8C3590A569A1837D45917" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "682DD450-7EC2-4570-9160-75270E7D4492",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7844076D035EA882CD4AF4F75CA0B708DB0AE36B" : "LTM\/",
+    "9C8423DB0139B37504A8C3590A569A1837D45917" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LTM",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LTM.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wangxiaoxiang\/LTM",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7844076D035EA882CD4AF4F75CA0B708DB0AE36B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/gitlab.laifeng.1verge.net:22023\/wangxiaoxiang\/laifeng-ios-core.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9C8423DB0139B37504A8C3590A569A1837D45917"
+    }
+  ]
+}
