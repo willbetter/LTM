@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+
+FOUNDATION_EXTERN NSString * const LTMNSKeyedUnarchiverSafetyErrorDomain;
+
 @interface NSKeyedUnarchiver (LTMNSKeyedUnarchiverSafetyAddtions)
 
 + (id)ltm_unarchiveObjectWithData:(NSData *)data error:(NSError *__autoreleasing *)error;

@@ -8,6 +8,8 @@
 
 #import "LTMNSKeyedUnarchiver+Safety.h"
 
+NSString * const LTMNSKeyedUnarchiverSafetyErrorDomain = @"com.youku.laifeng.ltm.keyed_unarchiver_safety.error";
+
 @implementation NSKeyedUnarchiver (LTMNSKeyedUnarchiverSafetyAddtions)
 
 
@@ -21,7 +23,7 @@
         @throw exception;
 #endif
         if (error != NULL) {
-            *error = [NSError errorWithDomain:exception.name code:-1 userInfo:exception.userInfo];
+            *error = [NSError errorWithDomain:LTMNSKeyedUnarchiverSafetyErrorDomain code:-1 userInfo:exception.userInfo];
         }
     }
     @finally{
@@ -40,7 +42,7 @@
         @throw exception;
 #endif
         if (error != NULL) {
-            *error = [NSError errorWithDomain:exception.name code:-1 userInfo:exception.userInfo];
+            *error = [NSError errorWithDomain:LTMNSKeyedUnarchiverSafetyErrorDomain code:-1 userInfo:exception.userInfo];
         }
     }
     @finally {
