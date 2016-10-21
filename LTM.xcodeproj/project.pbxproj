@@ -76,6 +76,26 @@
 		C041105F1D65DE73004D6725 /* LTMURLComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = C041105D1D65DE73004D6725 /* LTMURLComponents.m */; };
 		C04110621D65DEA5004D6725 /* LTMURLQueryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110601D65DEA5004D6725 /* LTMURLQueryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C04110631D65DEA5004D6725 /* LTMURLQueryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110611D65DEA5004D6725 /* LTMURLQueryItem.m */; };
+		C06D591F1DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; };
+		C06D59201DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; };
+		C06D59211DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; };
+		C06D59221DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; };
+		C06D59231DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; };
+		C06D59241DB9FC870029A6C7 /* LTMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D591E1DB9FC870029A6C7 /* LTMTimer.m */; };
+		C06D59251DB9FC870029A6C7 /* LTMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D591E1DB9FC870029A6C7 /* LTMTimer.m */; };
+		C06D59261DB9FC870029A6C7 /* LTMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D591E1DB9FC870029A6C7 /* LTMTimer.m */; };
+		C06D59271DB9FC870029A6C7 /* LTMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D591E1DB9FC870029A6C7 /* LTMTimer.m */; };
+		C06D59281DB9FC870029A6C7 /* LTMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D591E1DB9FC870029A6C7 /* LTMTimer.m */; };
+		C06D592B1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; };
+		C06D592C1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; };
+		C06D592D1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; };
+		C06D592E1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; };
+		C06D592F1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; };
+		C06D59301DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D592A1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m */; };
+		C06D59311DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D592A1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m */; };
+		C06D59321DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D592A1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m */; };
+		C06D59331DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D592A1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m */; };
+		C06D59341DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D592A1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m */; };
 		C0746D1F1D73DFDE001EAFA6 /* LTMMath.h in Headers */ = {isa = PBXBuildFile; fileRef = C0746D1D1D73DFDE001EAFA6 /* LTMMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0746D201D73DFDE001EAFA6 /* LTMMath.m in Sources */ = {isa = PBXBuildFile; fileRef = C0746D1E1D73DFDE001EAFA6 /* LTMMath.m */; };
 		C0764A1B1D9D24620038018F /* LTM.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F7B2A51D952E4200C6CB37 /* LTM.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -375,6 +395,10 @@
 		C041105D1D65DE73004D6725 /* LTMURLComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMURLComponents.m; sourceTree = "<group>"; };
 		C04110601D65DEA5004D6725 /* LTMURLQueryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMURLQueryItem.h; sourceTree = "<group>"; };
 		C04110611D65DEA5004D6725 /* LTMURLQueryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMURLQueryItem.m; sourceTree = "<group>"; };
+		C06D591D1DB9FC870029A6C7 /* LTMTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMTimer.h; sourceTree = "<group>"; };
+		C06D591E1DB9FC870029A6C7 /* LTMTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMTimer.m; sourceTree = "<group>"; };
+		C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMNSTimer+LightweightProxy.h"; sourceTree = "<group>"; };
+		C06D592A1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMNSTimer+LightweightProxy.m"; sourceTree = "<group>"; };
 		C0746D1D1D73DFDE001EAFA6 /* LTMMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMMath.h; sourceTree = "<group>"; };
 		C0746D1E1D73DFDE001EAFA6 /* LTMMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMMath.m; sourceTree = "<group>"; };
 		C0764AB01D9E0C6B0038018F /* LTMUIView+SubtreeDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIView+SubtreeDescription.h"; sourceTree = "<group>"; };
@@ -511,6 +535,8 @@
 				C04110591D65DA83004D6725 /* LTMLightweightProxy.m */,
 				C04110231D65CA22004D6725 /* LTMMerge.h */,
 				C04110241D65CA22004D6725 /* LTMMerge.m */,
+				C06D591D1DB9FC870029A6C7 /* LTMTimer.h */,
+				C06D591E1DB9FC870029A6C7 /* LTMTimer.m */,
 				C04110251D65CA22004D6725 /* LTMStringEncoding.h */,
 				C04110261D65CA22004D6725 /* LTMStringEncoding.m */,
 				C04110271D65CA22004D6725 /* LTMURLArguments.h */,
@@ -535,6 +561,8 @@
 				C02662431D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.m */,
 				CAE340EE1D7EA65300AA66CC /* LTMNSDictionary.h */,
 				CAE340EF1D7EA65300AA66CC /* LTMNSDictionary.m */,
+				C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */,
+				C06D592A1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m */,
 			);
 			path = LTM;
 			sourceTree = "<group>";
@@ -560,6 +588,7 @@
 				C04110561D65D922004D6725 /* LTMNSThread+Blocks.h in Headers */,
 				C041102E1D65CA22004D6725 /* LTMHex.h in Headers */,
 				C02662161D6ACE3600492242 /* LTMStringDrawing.h in Headers */,
+				C06D592B1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */,
 				C041102D1D65CA22004D6725 /* LTMDefines.h in Headers */,
 				C041105E1D65DE73004D6725 /* LTMURLComponents.h in Headers */,
 				C02662041D6AAE1600492242 /* LTMDigest.h in Headers */,
@@ -569,6 +598,7 @@
 				C026622F1D6ACFCF00492242 /* LTMUIColor+RGB.h in Headers */,
 				C041104A1D65CCA0004D6725 /* LTMGeometryUtils.h in Headers */,
 				C04110381D65CA22004D6725 /* LTMURLCoder.h in Headers */,
+				C06D591F1DB9FC870029A6C7 /* LTMTimer.h in Headers */,
 				C02662221D6ACE5A00492242 /* LTMUIImage+Alpha.h in Headers */,
 				C02662121D6ACC2300492242 /* LTMTypeUtility.h in Headers */,
 				C041104D1D65CDD7004D6725 /* LTMLocalizedString.h in Headers */,
@@ -605,6 +635,7 @@
 				C0F7B20C1D95240D00C6CB37 /* LTMMerge.h in Headers */,
 				C0F7B20D1D95240D00C6CB37 /* LTMStringEncoding.h in Headers */,
 				C0F7B20E1D95240D00C6CB37 /* LTMURLArguments.h in Headers */,
+				C06D59211DB9FC870029A6C7 /* LTMTimer.h in Headers */,
 				C0F7B20F1D95240D00C6CB37 /* LTMURLCoder.h in Headers */,
 				C0F7B2101D95240D00C6CB37 /* LTMMath.h in Headers */,
 				C0F7B2111D95240D00C6CB37 /* LTMURLComponents.h in Headers */,
@@ -615,6 +646,7 @@
 				C0F7B2161D95240D00C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */,
 				C0F7B2171D95240D00C6CB37 /* LTMNSKeyedUnarchiver+Safety.h in Headers */,
 				C0F7B2181D95240D00C6CB37 /* LTMNSDictionary.h in Headers */,
+				C06D592D1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,6 +659,7 @@
 				C0764A1F1D9D248C0038018F /* LTMUIColor+RGB.h in Headers */,
 				C0F7B22F1D95246600C6CB37 /* LTMDefines.h in Headers */,
 				C0F7B2301D95246600C6CB37 /* LTMLocalizedString.h in Headers */,
+				C06D592E1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */,
 				C0F7B2311D95246600C6CB37 /* LTMNSThread+Blocks.h in Headers */,
 				C0F7B2321D95246600C6CB37 /* LTMGeometryUtils.h in Headers */,
 				C0764A2B1D9D24CE0038018F /* LTMUIImage+RoundedCorner.h in Headers */,
@@ -636,6 +669,7 @@
 				C0F7B2351D95246600C6CB37 /* LTMJSON.h in Headers */,
 				C0F7B2361D95246600C6CB37 /* LTMLightweightProxy.h in Headers */,
 				C0F7B2371D95246600C6CB37 /* LTMMerge.h in Headers */,
+				C06D59221DB9FC870029A6C7 /* LTMTimer.h in Headers */,
 				C0F7B2381D95246600C6CB37 /* LTMStringEncoding.h in Headers */,
 				C0F7B2391D95246600C6CB37 /* LTMURLArguments.h in Headers */,
 				C0F7B23A1D95246600C6CB37 /* LTMURLCoder.h in Headers */,
@@ -667,6 +701,7 @@
 				C0F7B2591D95248D00C6CB37 /* LTMLocalizedString.h in Headers */,
 				C0F7B25A1D95248D00C6CB37 /* LTMNSThread+Blocks.h in Headers */,
 				C0F7B25B1D95248D00C6CB37 /* LTMGeometryUtils.h in Headers */,
+				C06D592F1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */,
 				C0764A9A1D9D2E140038018F /* LTMUIImage+RoundedCorner.h in Headers */,
 				C0F7B25C1D95248D00C6CB37 /* LTMBase64.h in Headers */,
 				C0764A981D9D2E140038018F /* LTMUIImage+Resize.h in Headers */,
@@ -684,6 +719,7 @@
 				C0F7B2661D95248D00C6CB37 /* LTMURLQueryItem.h in Headers */,
 				C0F7B2671D95248D00C6CB37 /* LTMDigest.h in Headers */,
 				C0764A991D9D2E140038018F /* LTMUIImage+Rotate.h in Headers */,
+				C06D59231DB9FC870029A6C7 /* LTMTimer.h in Headers */,
 				C0F7B2681D95248D00C6CB37 /* LTMPath.h in Headers */,
 				C0F7B2691D95248D00C6CB37 /* LTMTypeUtility.h in Headers */,
 				C0F7B26A1D95248D00C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */,
@@ -701,6 +737,7 @@
 				C0F7B28A1D9524AB00C6CB37 /* LTMStringDrawing.h in Headers */,
 				C0F7B28B1D9524AB00C6CB37 /* LTMUIImage+Alpha.h in Headers */,
 				C0F7B28C1D9524AB00C6CB37 /* LTMUIImage+Resize.h in Headers */,
+				C06D592C1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */,
 				C0F7B28D1D9524AB00C6CB37 /* LTMUIImage+Rotate.h in Headers */,
 				C0F7B28E1D9524AB00C6CB37 /* LTMUIImage+RoundedCorner.h in Headers */,
 				C0F7B28F1D9524AB00C6CB37 /* LTMUIView+Snapshot.h in Headers */,
@@ -710,6 +747,7 @@
 				C0F7B2931D9524AB00C6CB37 /* LTMBase64.h in Headers */,
 				C0F7B2941D9524AB00C6CB37 /* LTMHex.h in Headers */,
 				C0F7B2951D9524AB00C6CB37 /* LTMJSON.h in Headers */,
+				C06D59201DB9FC870029A6C7 /* LTMTimer.h in Headers */,
 				C0F7B2961D9524AB00C6CB37 /* LTMLightweightProxy.h in Headers */,
 				C0F7B2971D9524AB00C6CB37 /* LTMMerge.h in Headers */,
 				C0F7B2981D9524AB00C6CB37 /* LTMStringEncoding.h in Headers */,
@@ -970,9 +1008,11 @@
 				C04110391D65CA22004D6725 /* LTMURLCoder.m in Sources */,
 				C04110571D65D922004D6725 /* LTMNSThread+Blocks.m in Sources */,
 				C02662301D6ACFCF00492242 /* LTMUIColor+RGB.m in Sources */,
+				C06D59241DB9FC870029A6C7 /* LTMTimer.m in Sources */,
 				C041102F1D65CA22004D6725 /* LTMHex.m in Sources */,
 				C02662271D6ACE5A00492242 /* LTMUIImage+Rotate.m in Sources */,
 				C04110351D65CA22004D6725 /* LTMStringEncoding.m in Sources */,
+				C06D59301DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */,
 				C026622B1D6ACE5A00492242 /* LTMUIView+Snapshot.m in Sources */,
 				C041105F1D65DE73004D6725 /* LTMURLComponents.m in Sources */,
 				C04110631D65DEA5004D6725 /* LTMURLQueryItem.m in Sources */,
@@ -1014,6 +1054,7 @@
 				C0F7B1F81D9523FE00C6CB37 /* LTMMerge.m in Sources */,
 				C0F7B1F91D9523FE00C6CB37 /* LTMStringEncoding.m in Sources */,
 				C0F7B1FA1D9523FE00C6CB37 /* LTMURLArguments.m in Sources */,
+				C06D59321DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */,
 				C0F7B1FB1D9523FE00C6CB37 /* LTMURLCoder.m in Sources */,
 				C0F7B1FC1D9523FE00C6CB37 /* LTMMath.m in Sources */,
 				C0F7B1FD1D9523FE00C6CB37 /* LTMURLComponents.m in Sources */,
@@ -1024,6 +1065,7 @@
 				C0F7B2021D9523FE00C6CB37 /* LTMNSCoder+ExtendedCoder.m in Sources */,
 				C0F7B2031D9523FE00C6CB37 /* LTMNSKeyedUnarchiver+Safety.m in Sources */,
 				C0F7B2041D9523FE00C6CB37 /* LTMNSDictionary.m in Sources */,
+				C06D59261DB9FC870029A6C7 /* LTMTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1039,9 +1081,11 @@
 				C0F7B21F1D95245200C6CB37 /* LTMJSON.m in Sources */,
 				C0764A271D9D24C60038018F /* LTMUIImage+Rotate.m in Sources */,
 				C0F7B2201D95245200C6CB37 /* LTMLightweightProxy.m in Sources */,
+				C06D59271DB9FC870029A6C7 /* LTMTimer.m in Sources */,
 				C0764A211D9D24A60038018F /* LTMUIColor+RGB.m in Sources */,
 				C0764A261D9D24C00038018F /* LTMUIImage+Resize.m in Sources */,
 				C0764A291D9D24C60038018F /* LTMUIView+Snapshot.m in Sources */,
+				C06D59331DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */,
 				C0F7B2211D95245200C6CB37 /* LTMMerge.m in Sources */,
 				C0F7B2221D95245200C6CB37 /* LTMStringEncoding.m in Sources */,
 				C0764A281D9D24C60038018F /* LTMUIImage+RoundedCorner.m in Sources */,
@@ -1070,6 +1114,7 @@
 				C0F7B2441D95247900C6CB37 /* LTMNSThread+Blocks.m in Sources */,
 				C0F7B2451D95247900C6CB37 /* LTMGeometryUtils.m in Sources */,
 				C0F7B2461D95247900C6CB37 /* LTMBase64.m in Sources */,
+				C06D59281DB9FC870029A6C7 /* LTMTimer.m in Sources */,
 				C0764A941D9D2D770038018F /* LTMUIColor+RGB.m in Sources */,
 				C0764A961D9D2DC60038018F /* LTMStringDrawing.m in Sources */,
 				C0764A9D1D9D2E1C0038018F /* LTMUIImage+Rotate.m in Sources */,
@@ -1081,6 +1126,7 @@
 				C0F7B24A1D95247900C6CB37 /* LTMMerge.m in Sources */,
 				C0764A9E1D9D2E1C0038018F /* LTMUIImage+RoundedCorner.m in Sources */,
 				C0F7B24B1D95247900C6CB37 /* LTMStringEncoding.m in Sources */,
+				C06D59341DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */,
 				C0F7B24C1D95247900C6CB37 /* LTMURLArguments.m in Sources */,
 				C0F7B24D1D95247900C6CB37 /* LTMURLCoder.m in Sources */,
 				C0F7B24E1D95247900C6CB37 /* LTMMath.m in Sources */,
@@ -1107,9 +1153,11 @@
 				C0F7B2721D9524A300C6CB37 /* LTMUIImage+RoundedCorner.m in Sources */,
 				C0F7B2731D9524A300C6CB37 /* LTMUIView+Snapshot.m in Sources */,
 				C0F7B2741D9524A300C6CB37 /* LTMNSThread+Blocks.m in Sources */,
+				C06D59251DB9FC870029A6C7 /* LTMTimer.m in Sources */,
 				C0F7B2751D9524A300C6CB37 /* LTMGeometryUtils.m in Sources */,
 				C0F7B2761D9524A300C6CB37 /* LTMBase64.m in Sources */,
 				C0F7B2771D9524A300C6CB37 /* LTMHex.m in Sources */,
+				C06D59311DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */,
 				C0F7B2781D9524A300C6CB37 /* LTMJSON.m in Sources */,
 				C0F7B2791D9524A300C6CB37 /* LTMLightweightProxy.m in Sources */,
 				C0F7B27A1D9524A300C6CB37 /* LTMMerge.m in Sources */,

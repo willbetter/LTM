@@ -21,7 +21,7 @@
 
 @implementation LTMLightweightProxy
 
-- (id)initWithRepresentedObject:(id)object {
+- (instancetype)initWithRepresentedObject:(id)object {
   // it's weak, we don't retain
   _representedObject = object;
   return self;
@@ -29,6 +29,11 @@
 
 - (id)init {
   return [self initWithRepresentedObject:nil];
+}
+
++ (instancetype)lightweightProxyWithRepresentedObject:(id)object {
+    LTMLightweightProxy *proxy = [[LTMLightweightProxy alloc] initWithRepresentedObject:object];
+    return proxy;
 }
 
 - (void)dealloc {
