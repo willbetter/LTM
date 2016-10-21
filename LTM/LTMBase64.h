@@ -13,7 +13,7 @@
 @required
 + (NSData *)decodeAsData:(NSString *)string;
 
-+ (NSString *)dacodeAsString:(NSString *)string;
++ (NSString *)decodeAsString:(NSString *)string;
 
 + (NSString *)encodeData:(NSData *)data;
 

@@ -25,7 +25,7 @@ static LTMStringEncoding *g_webSafeBase64Coder = nil;
     return [g_base64Coder decode:string];
 }
 
-+ (NSString *)dacodeAsString:(NSString *)string {
++ (NSString *)decodeAsString:(NSString *)string {
     return [g_base64Coder stringByDecoding:string];
 }
 
@@ -53,7 +53,7 @@ static LTMStringEncoding *g_webSafeBase64Coder = nil;
     return [g_webSafeBase64Coder decode:string];
 }
 
-+ (NSString *)dacodeAsString:(NSString *)string {
++ (NSString *)decodeAsString:(NSString *)string {
     return [g_webSafeBase64Coder stringByDecoding:string];
 }
 
