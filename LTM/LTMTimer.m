@@ -63,7 +63,7 @@
         self.userInfo = userInfo;
         self.repeats = repeats;
         
-        NSString *privateQueueName = [NSString stringWithFormat:@"com.youku.laifeng.timer.%p", self];
+        NSString *privateQueueName = [NSString stringWithFormat:@"com.youku.laifeng.LTM.timer.%p", self];
         self.privateSerialQueue = dispatch_queue_create([privateQueueName cStringUsingEncoding:NSASCIIStringEncoding], DISPATCH_QUEUE_SERIAL);
         dispatch_set_target_queue(self.privateSerialQueue, dispatchQueue);
         

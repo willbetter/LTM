@@ -76,21 +76,21 @@
 		C041105F1D65DE73004D6725 /* LTMURLComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = C041105D1D65DE73004D6725 /* LTMURLComponents.m */; };
 		C04110621D65DEA5004D6725 /* LTMURLQueryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C04110601D65DEA5004D6725 /* LTMURLQueryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C04110631D65DEA5004D6725 /* LTMURLQueryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110611D65DEA5004D6725 /* LTMURLQueryItem.m */; };
-		C06D591F1DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; };
-		C06D59201DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; };
-		C06D59211DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; };
-		C06D59221DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; };
-		C06D59231DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; };
+		C06D591F1DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06D59201DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06D59211DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06D59221DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06D59231DB9FC870029A6C7 /* LTMTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D591D1DB9FC870029A6C7 /* LTMTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C06D59241DB9FC870029A6C7 /* LTMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D591E1DB9FC870029A6C7 /* LTMTimer.m */; };
 		C06D59251DB9FC870029A6C7 /* LTMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D591E1DB9FC870029A6C7 /* LTMTimer.m */; };
 		C06D59261DB9FC870029A6C7 /* LTMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D591E1DB9FC870029A6C7 /* LTMTimer.m */; };
 		C06D59271DB9FC870029A6C7 /* LTMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D591E1DB9FC870029A6C7 /* LTMTimer.m */; };
 		C06D59281DB9FC870029A6C7 /* LTMTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D591E1DB9FC870029A6C7 /* LTMTimer.m */; };
-		C06D592B1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; };
-		C06D592C1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; };
-		C06D592D1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; };
-		C06D592E1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; };
-		C06D592F1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; };
+		C06D592B1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06D592C1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06D592D1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06D592E1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C06D592F1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C06D59291DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C06D59301DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D592A1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m */; };
 		C06D59311DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D592A1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m */; };
 		C06D59321DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06D592A1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m */; };
@@ -142,6 +142,12 @@
 		C0764AC01D9E43020038018F /* LTMUIFont+LineHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C0764ABA1D9E43020038018F /* LTMUIFont+LineHeight.m */; };
 		C0764AC11D9E43070038018F /* LTMUIFont+LineHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = C0764AB91D9E43020038018F /* LTMUIFont+LineHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0764AC21D9E430E0038018F /* LTMUIFont+LineHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C0764ABA1D9E43020038018F /* LTMUIFont+LineHeight.m */; };
+		C0D059F61DC3848200C6204E /* LTMDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D059F41DC3848200C6204E /* LTMDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0D059F71DC3848200C6204E /* LTMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D059F51DC3848200C6204E /* LTMDevice.m */; };
+		C0D059F81DC3877700C6204E /* LTMDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D059F41DC3848200C6204E /* LTMDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0D059F91DC3878000C6204E /* LTMDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D059F41DC3848200C6204E /* LTMDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0D059FA1DC387C900C6204E /* LTMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D059F51DC3848200C6204E /* LTMDevice.m */; };
+		C0D059FC1DC387CB00C6204E /* LTMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D059F51DC3848200C6204E /* LTMDevice.m */; };
 		C0F7B1F21D9523FE00C6CB37 /* LTMNSThread+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110551D65D922004D6725 /* LTMNSThread+Blocks.m */; };
 		C0F7B1F31D9523FE00C6CB37 /* LTMGeometryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110491D65CCA0004D6725 /* LTMGeometryUtils.m */; };
 		C0F7B1F41D9523FE00C6CB37 /* LTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C041101D1D65CA22004D6725 /* LTMBase64.m */; };
@@ -405,6 +411,8 @@
 		C0764AB11D9E0C6B0038018F /* LTMUIView+SubtreeDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIView+SubtreeDescription.m"; sourceTree = "<group>"; };
 		C0764AB91D9E43020038018F /* LTMUIFont+LineHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTMUIFont+LineHeight.h"; sourceTree = "<group>"; };
 		C0764ABA1D9E43020038018F /* LTMUIFont+LineHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LTMUIFont+LineHeight.m"; sourceTree = "<group>"; };
+		C0D059F41DC3848200C6204E /* LTMDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTMDevice.h; sourceTree = "<group>"; };
+		C0D059F51DC3848200C6204E /* LTMDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTMDevice.m; sourceTree = "<group>"; };
 		C0F7B1C31D95234F00C6CB37 /* LTM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F7B1D01D95236F00C6CB37 /* LTM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0F7B1DD1D95237C00C6CB37 /* LTM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -485,6 +493,8 @@
 				C02662211D6ACE5A00492242 /* LTMUIView+Snapshot.m */,
 				C0764AB01D9E0C6B0038018F /* LTMUIView+SubtreeDescription.h */,
 				C0764AB11D9E0C6B0038018F /* LTMUIView+SubtreeDescription.m */,
+				C0D059F41DC3848200C6204E /* LTMDevice.h */,
+				C0D059F51DC3848200C6204E /* LTMDevice.m */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -612,6 +622,7 @@
 				C04110301D65CA22004D6725 /* LTMJSON.h in Headers */,
 				C02662441D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.h in Headers */,
 				CAE340F01D7EA65300AA66CC /* LTMNSDictionary.h in Headers */,
+				C0D059F61DC3848200C6204E /* LTMDevice.h in Headers */,
 				C0764AB21D9E0C6B0038018F /* LTMUIView+SubtreeDescription.h in Headers */,
 				C0764ABB1D9E43020038018F /* LTMUIFont+LineHeight.h in Headers */,
 				C0F7B2A71D952E4200C6CB37 /* LTM.h in Headers */,
@@ -684,6 +695,7 @@
 				C0F7B2411D95246600C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */,
 				C0F7B2421D95246600C6CB37 /* LTMNSKeyedUnarchiver+Safety.h in Headers */,
 				C0764AB41D9E0C6B0038018F /* LTMUIView+SubtreeDescription.h in Headers */,
+				C0D059F91DC3878000C6204E /* LTMDevice.h in Headers */,
 				C0764ABD1D9E43020038018F /* LTMUIFont+LineHeight.h in Headers */,
 				C0F7B2431D95246600C6CB37 /* LTMNSDictionary.h in Headers */,
 				C0764A2C1D9D24CE0038018F /* LTMUIView+Snapshot.h in Headers */,
@@ -701,7 +713,6 @@
 				C0F7B2591D95248D00C6CB37 /* LTMLocalizedString.h in Headers */,
 				C0F7B25A1D95248D00C6CB37 /* LTMNSThread+Blocks.h in Headers */,
 				C0F7B25B1D95248D00C6CB37 /* LTMGeometryUtils.h in Headers */,
-				C06D592F1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */,
 				C0764A9A1D9D2E140038018F /* LTMUIImage+RoundedCorner.h in Headers */,
 				C0F7B25C1D95248D00C6CB37 /* LTMBase64.h in Headers */,
 				C0764A981D9D2E140038018F /* LTMUIImage+Resize.h in Headers */,
@@ -719,10 +730,11 @@
 				C0F7B2661D95248D00C6CB37 /* LTMURLQueryItem.h in Headers */,
 				C0F7B2671D95248D00C6CB37 /* LTMDigest.h in Headers */,
 				C0764A991D9D2E140038018F /* LTMUIImage+Rotate.h in Headers */,
-				C06D59231DB9FC870029A6C7 /* LTMTimer.h in Headers */,
 				C0F7B2681D95248D00C6CB37 /* LTMPath.h in Headers */,
 				C0F7B2691D95248D00C6CB37 /* LTMTypeUtility.h in Headers */,
 				C0F7B26A1D95248D00C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */,
+				C06D592F1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */,
+				C06D59231DB9FC870029A6C7 /* LTMTimer.h in Headers */,
 				C0F7B26B1D95248D00C6CB37 /* LTMNSKeyedUnarchiver+Safety.h in Headers */,
 				C0F7B26C1D95248D00C6CB37 /* LTMNSDictionary.h in Headers */,
 			);
@@ -762,6 +774,7 @@
 				C0F7B2A11D9524AC00C6CB37 /* LTMNSCoder+ExtendedCoder.h in Headers */,
 				C0764A1B1D9D24620038018F /* LTM.h in Headers */,
 				C0764AB31D9E0C6B0038018F /* LTMUIView+SubtreeDescription.h in Headers */,
+				C0D059F81DC3877700C6204E /* LTMDevice.h in Headers */,
 				C0764ABC1D9E43020038018F /* LTMUIFont+LineHeight.h in Headers */,
 				C0F7B2A21D9524AC00C6CB37 /* LTMNSKeyedUnarchiver+Safety.h in Headers */,
 				C0F7B2A31D9524AC00C6CB37 /* LTMNSDictionary.h in Headers */,
@@ -1000,6 +1013,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0D059F71DC3848200C6204E /* LTMDevice.m in Sources */,
 				C02662451D6ADB5700492242 /* LTMNSKeyedUnarchiver+Safety.m in Sources */,
 				C04110371D65CA22004D6725 /* LTMURLArguments.m in Sources */,
 				C02662341D6AD56300492242 /* LTMNSCoder+ExtendedCoder.m in Sources */,
@@ -1085,6 +1099,7 @@
 				C0764A211D9D24A60038018F /* LTMUIColor+RGB.m in Sources */,
 				C0764A261D9D24C00038018F /* LTMUIImage+Resize.m in Sources */,
 				C0764A291D9D24C60038018F /* LTMUIView+Snapshot.m in Sources */,
+				C0D059FC1DC387CB00C6204E /* LTMDevice.m in Sources */,
 				C06D59331DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */,
 				C0F7B2211D95245200C6CB37 /* LTMMerge.m in Sources */,
 				C0F7B2221D95245200C6CB37 /* LTMStringEncoding.m in Sources */,
@@ -1157,6 +1172,7 @@
 				C0F7B2751D9524A300C6CB37 /* LTMGeometryUtils.m in Sources */,
 				C0F7B2761D9524A300C6CB37 /* LTMBase64.m in Sources */,
 				C0F7B2771D9524A300C6CB37 /* LTMHex.m in Sources */,
+				C0D059FA1DC387C900C6204E /* LTMDevice.m in Sources */,
 				C06D59311DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.m in Sources */,
 				C0F7B2781D9524A300C6CB37 /* LTMJSON.m in Sources */,
 				C0F7B2791D9524A300C6CB37 /* LTMLightweightProxy.m in Sources */,

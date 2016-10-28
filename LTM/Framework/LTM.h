@@ -46,6 +46,8 @@ FOUNDATION_EXPORT const unsigned char LTMVersionString[];
 #import <LTM/LTMNSKeyedUnarchiver+Safety.h>
 #import <LTM/LTMMath.h>
 #import <LTM/LTMNSDictionary.h>
+#import <LTM/LTMTimer.h.h>
+#import <LTM/LTMNSTimer+LightweightProxy.h>
 
 #if TARGET_OS_IPHONE
 #import <LTM/LTMStringDrawing.h>
@@ -60,5 +62,6 @@ FOUNDATION_EXPORT const unsigned char LTMVersionString[];
 #if TARGET_OS_IPHONE && (TARGET_OS_IOS || TARGET_OS_TV) && !TARGET_OS_WATCH
 #import <LTM/LTMUIView+Snapshot.h>
 #import <LTM/LTMUIView+SubtreeDescription.h>
+#import <LTM/LTMDevice.h>
 #endif
 
