@@ -46,7 +46,7 @@ FOUNDATION_EXPORT const unsigned char LTMVersionString[];
 #import <LTM/LTMNSKeyedUnarchiver+Safety.h>
 #import <LTM/LTMMath.h>
 #import <LTM/LTMNSDictionary.h>
-#import <LTM/LTMTimer.h.h>
+#import <LTM/LTMTimer.h>
 #import <LTM/LTMNSTimer+LightweightProxy.h>
 
 #if TARGET_OS_IPHONE
