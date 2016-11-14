@@ -65,3 +65,7 @@ FOUNDATION_EXPORT const unsigned char LTMVersionString[];
 #import <LTM/LTMDevice.h>
 #endif
 
+#if TARGET_OS_IPHONE && TARGET_OS_IOS
+#import <LTM/LTMSystemVersion.h>
+#endif
+

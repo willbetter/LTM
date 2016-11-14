@@ -142,14 +142,10 @@
 		C0764AC01D9E43020038018F /* LTMUIFont+LineHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C0764ABA1D9E43020038018F /* LTMUIFont+LineHeight.m */; };
 		C0764AC11D9E43070038018F /* LTMUIFont+LineHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = C0764AB91D9E43020038018F /* LTMUIFont+LineHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0764AC21D9E430E0038018F /* LTMUIFont+LineHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C0764ABA1D9E43020038018F /* LTMUIFont+LineHeight.m */; };
-		C076DBB01DD5C70600E5A32F /* LTMSystemVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = C076DBAE1DD5C70600E5A32F /* LTMSystemVersion.h */; };
-		C076DBB11DD5C70600E5A32F /* LTMSystemVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = C076DBAE1DD5C70600E5A32F /* LTMSystemVersion.h */; };
-		C076DBB21DD5C70600E5A32F /* LTMSystemVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = C076DBAE1DD5C70600E5A32F /* LTMSystemVersion.h */; };
-		C076DBB31DD5C70600E5A32F /* LTMSystemVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = C076DBAE1DD5C70600E5A32F /* LTMSystemVersion.h */; };
+		C076DBB01DD5C70600E5A32F /* LTMSystemVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = C076DBAE1DD5C70600E5A32F /* LTMSystemVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C076DBB11DD5C70600E5A32F /* LTMSystemVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = C076DBAE1DD5C70600E5A32F /* LTMSystemVersion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C076DBB41DD5C70600E5A32F /* LTMSystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = C076DBAF1DD5C70600E5A32F /* LTMSystemVersion.m */; };
 		C076DBB51DD5C70600E5A32F /* LTMSystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = C076DBAF1DD5C70600E5A32F /* LTMSystemVersion.m */; };
-		C076DBB61DD5C70600E5A32F /* LTMSystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = C076DBAF1DD5C70600E5A32F /* LTMSystemVersion.m */; };
-		C076DBB71DD5C70600E5A32F /* LTMSystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = C076DBAF1DD5C70600E5A32F /* LTMSystemVersion.m */; };
 		C0F7B1F21D9523FE00C6CB37 /* LTMNSThread+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110551D65D922004D6725 /* LTMNSThread+Blocks.m */; };
 		C0F7B1F31D9523FE00C6CB37 /* LTMGeometryUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C04110491D65CCA0004D6725 /* LTMGeometryUtils.m */; };
 		C0F7B1F41D9523FE00C6CB37 /* LTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = C041101D1D65CA22004D6725 /* LTMBase64.m */; };
@@ -673,7 +669,6 @@
 				C0F7B22F1D95246600C6CB37 /* LTMDefines.h in Headers */,
 				C0F7B2301D95246600C6CB37 /* LTMLocalizedString.h in Headers */,
 				C06D592E1DB9FF0A0029A6C7 /* LTMNSTimer+LightweightProxy.h in Headers */,
-				C076DBB21DD5C70600E5A32F /* LTMSystemVersion.h in Headers */,
 				C0F7B2311D95246600C6CB37 /* LTMNSThread+Blocks.h in Headers */,
 				C0F7B2321D95246600C6CB37 /* LTMGeometryUtils.h in Headers */,
 				C0764A2B1D9D24CE0038018F /* LTMUIImage+RoundedCorner.h in Headers */,
@@ -708,7 +703,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C076DBB31DD5C70600E5A32F /* LTMSystemVersion.h in Headers */,
 				C0764A951D9D2DC10038018F /* LTMStringDrawing.h in Headers */,
 				C0764A1E1D9D24630038018F /* LTM.h in Headers */,
 				C0764A931D9D2D6B0038018F /* LTMUIColor+RGB.h in Headers */,
@@ -1112,7 +1106,6 @@
 				C0F7B2251D95245200C6CB37 /* LTMMath.m in Sources */,
 				C0F7B2261D95245200C6CB37 /* LTMURLComponents.m in Sources */,
 				C0764AB71D9E0C6B0038018F /* LTMUIView+SubtreeDescription.m in Sources */,
-				C076DBB61DD5C70600E5A32F /* LTMSystemVersion.m in Sources */,
 				C0F7B2271D95245200C6CB37 /* LTMURLQueryItem.m in Sources */,
 				C0F7B2281D95245200C6CB37 /* LTMDigest.m in Sources */,
 				C0F7B2291D95245200C6CB37 /* LTMPath.m in Sources */,
@@ -1155,7 +1148,6 @@
 				C0F7B2531D95247900C6CB37 /* LTMTypeUtility.m in Sources */,
 				C0F7B2541D95247900C6CB37 /* LTMNSCoder+ExtendedCoder.m in Sources */,
 				C0F7B2551D95247900C6CB37 /* LTMNSKeyedUnarchiver+Safety.m in Sources */,
-				C076DBB71DD5C70600E5A32F /* LTMSystemVersion.m in Sources */,
 				C0F7B2561D95247900C6CB37 /* LTMNSDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
