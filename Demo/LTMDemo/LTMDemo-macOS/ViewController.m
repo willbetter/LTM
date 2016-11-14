@@ -13,7 +13,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+    NSString *string = @":!*();@/&?+$,='";
+    
+    NSString *encode1 = [LTMURLCoder encode:string];
+    NSString *encode2 = [LTMURLCoder encode:encode1];
 #if TARGET_OS_IPHONE
      NSLog(@"Hello iOS");
 #endif
