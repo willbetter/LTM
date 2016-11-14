@@ -1,0 +1,4 @@
+source 'https://github.com/CocoaPods/Specs.git'
+target 'LTMDemo_iOS_Pod' do
+  pod 'LTM', :path => '../../.'
+end

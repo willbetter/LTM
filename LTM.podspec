@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint UKLFNetworking.podspec' to ensure this is a
+#  Be sure to run `pod spec lint LTM.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-    s.name     = 'UKLFNetworking'
+    s.name     = 'LTM'
     s.version  = '1.0.2'
     s.license  = 'MIT'
     s.summary  = 'A delightful iOS utility class'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '7.0'
 
     s.preserve_paths = 'releases/iOS/LTM.framework'
-    s.vendored_frameworks = 'LTM.framework'
-    s.frameworks = "SystemConfiguration", "Security"
-    s.libraries = "sqlite3"
+    s.vendored_frameworks = 'releases/iOS/LTM.framework'
+    s.frameworks = "CoreGraphics", "Security"
+    s.libraries = "z"
 end

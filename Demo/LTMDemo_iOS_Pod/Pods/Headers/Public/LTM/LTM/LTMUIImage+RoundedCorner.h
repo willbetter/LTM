@@ -1,0 +1,1 @@
+../../../../../../../releases/iOS/LTM.framework/Headers/LTMUIImage+RoundedCorner.h
