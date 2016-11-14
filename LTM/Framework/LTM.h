@@ -62,7 +62,6 @@ FOUNDATION_EXPORT const unsigned char LTMVersionString[];
 #if TARGET_OS_IPHONE && (TARGET_OS_IOS || TARGET_OS_TV) && !TARGET_OS_WATCH
 #import <LTM/LTMUIView+Snapshot.h>
 #import <LTM/LTMUIView+SubtreeDescription.h>
-#import <LTM/LTMDevice.h>
 #endif
 
 #if TARGET_OS_IPHONE && TARGET_OS_IOS
